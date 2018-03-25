@@ -525,6 +525,8 @@ body.home .form {
     padding: 23px 4%; }
   body.home .form .cognito .c-forms-form input[type=text] {
     border: 2px solid #223474; }
+  body.home .form a[style=inline] {
+    display: none !important; }
 
 footer {
   background-image: url("../images/paisley.jpg");

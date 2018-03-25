@@ -141,6 +141,10 @@ body.home{
 		.cognito .c-forms-form input[type=text]{
 			border: 2px solid $dblue;
 		}
+
+		a[style=inline]{
+			display: none !important;
+		}
 	}
 
 }
