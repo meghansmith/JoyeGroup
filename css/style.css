@@ -515,7 +515,16 @@ body.home .form {
   background-image: url(../images/formBackground.jpg);
   padding-top: 46px;
   padding-bototm: 46px;
-  background-position: 60%; }
+  background-position: 45%;
+  background-size: cover; }
+  body.home .form h2 {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 23px 4%; }
+  body.home .form .c-forms-form-body {
+    padding: 23px 4%; }
+  body.home .form .cognito .c-forms-form input[type=text] {
+    border: 2px solid #223474; }
 
 footer {
   background-image: url("../images/paisley.jpg");

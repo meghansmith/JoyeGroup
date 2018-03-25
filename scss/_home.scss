@@ -127,7 +127,20 @@ body.home{
 		background-image: url(../images/formBackground.jpg);
 		padding-top: 46px;
 		padding-bototm: 46px;
-		background-position: 60%;
+		background-position: 45%;
+		background-size: cover;
+
+		h2{
+			text-shadow: 0 0 5px rgba(255,255,255,.75);
+		    background-color: rgba(255,255,255,.7);
+		    padding: 23px 4%;
+		}
+		.c-forms-form-body {
+			padding: 23px 4%;
+		}
+		.cognito .c-forms-form input[type=text]{
+			border: 2px solid $dblue;
+		}
 	}
 
 }
