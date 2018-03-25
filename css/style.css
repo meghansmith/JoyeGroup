@@ -504,8 +504,8 @@ body.home .testimonial {
     position: relative; }
     body.home .testimonial .inner .top, body.home .testimonial .inner .bottom {
       position: absolute;
-      width: 46px;
-      height: 46px; }
+      width: 92px;
+      height: 92px; }
     body.home .testimonial .inner .top {
       top: 0;
       border-top: 2px solid #0b460a; }
