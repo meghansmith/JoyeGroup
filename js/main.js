@@ -9,4 +9,8 @@ $(document).ready(function(){
 	var msnry = new Masonry( container, {
 	itemSelector: '.eventS'
 	});
+
+	$('a.cognito').removeAttr('style').css('display','none');
+
+
 });
