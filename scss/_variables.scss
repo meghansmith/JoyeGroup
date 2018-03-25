@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|Source+Serif+Pro:400,700');
+ @font-face {
+        font-family: 'icomoon';
+        src:url('../fonts/icomoon.eot');
+        src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/icomoon.woff') format('woff'),
+            url('../fonts/icomoon.ttf') format('truetype'),
+            url('../fonts/icomoon.svg#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+$fontH: "PT Sans", sans-serif;
+$fontB: "Source Serif Pro", serif;
+
+//colors
+$lblue: #a9cfe0;
+$dblue: #223474;
+$lgreen: #bbdddb;
+$dgreen: #0b460a;
+$silver: #a6a3a1;
+$orange: #ce7304;
+$tan: #f3eee5;
+
+
+$small: 650em / 16;
+$workMed: 850em/16;
+$med: 1000em / 16;
+$hover: 1025em/16;

@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# Designed and coded by Meghan Smith Solutions: Let's Delight Your Customers!
+
+# THANKS
+
+    The Iron Yard’s web design academy.
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    jQuery, Modernizr, Normalize.css

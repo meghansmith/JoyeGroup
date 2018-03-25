@@ -1,0 +1,82 @@
+body.home{
+	.intro {
+		background-image: url(../images/hero.gif);
+		background-size: cover;
+		background-position: 53%;
+		display: inline-block;
+		margin-bottom: 46px;
+		
+		.background{
+			background-color: rgba(255,255,255,.75);
+			padding: 23px 4%;
+		}
+
+		h2, p, .cta{
+			text-shadow: 0 0 5px rgba(255,255,255,.75);
+		}
+	
+		
+		.cta{
+			font-size: 1.2em;
+			text-decoration: none;
+			font-weight: 700;
+			display: inline-block;
+			margin-bottom: 23px;
+
+		}
+	}
+
+	.tagline {
+		color: $dgreen;
+		display: inline-block;
+		margin-bottom: 23px;
+
+	}
+
+	.services{
+
+		background-image: url('../images/servicesBackground.jpg');
+		padding-bottom: 1px;
+		margin-bottom: 46px;
+
+
+		h3 {
+			color: $tan;
+			line-height: 1.35em;
+			padding: 46px 0 23px;
+
+		}
+
+		.flexItem {
+			display:inline-block;
+			background-color: rgba(243,238,229,.7);
+			padding: 23px 4%;
+			margin-bottom: 23px;
+			border-radius: 4px;
+			
+		}
+
+		a {
+				text-decoration: none;
+				
+
+			h4, p {
+				color: $dblue;
+			}
+
+		}
+
+		h4{
+			font-size: 1.4em;
+			margin-top: 12px;
+			margin-bottom: 12px;
+			line-height:1.1em;
+
+
+		}
+	}
+
+
+
+
+}

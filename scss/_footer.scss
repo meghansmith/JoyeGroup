@@ -1,0 +1,53 @@
+footer { 
+	background-image: url("../images/paisley.jpg");
+	border-bottom: 5px solid $silver;
+	width: 100%;
+	// position: fixed;
+	// bottom:0;
+	// z-index: -5;
+
+	text-align: center;
+	color: $dgreen;
+	
+	padding: 1px 2% 0;
+
+	@include bp(500em / 16){
+      padding-left: 4%;
+      padding-right: 4%;
+    }
+
+	div {
+		@include bp($small){
+			max-width: 650px;
+			margin: 0 auto;
+		}
+	}
+
+	.logoReplace a {
+		@include bp($small)	{
+			float: left;
+			width: 50%;
+			background-size: contain;
+			background-repeat: no-repeat;
+			margin-right: 5%;
+		}
+	}
+	
+	.hobbies{
+		text-align: left;
+
+		@include bp($small){
+			padding-top: 7px;
+		}
+	}
+
+	.copyright {
+		font-size: 12px;
+		margin-bottom: 0;
+
+		@include bp($small) {
+			text-align: left;
+			clear: left;
+		}
+	}
+}

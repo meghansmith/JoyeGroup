@@ -1,0 +1,97 @@
+header{ 
+	margin-bottom: 20px;
+	h1 {
+		margin: 0 0 20px;
+	}
+	.contactInfo {
+		// position: absolute;
+		// right: 0;
+		// top:14px;
+		text-align: right;
+
+
+		.cta{
+			display: inline-block;
+			border: 4px solid $orange;
+			border-radius: 5px;
+			color: $orange;
+			background-color: $tan;
+			padding: 6px 12px;
+			font-size: 1em;
+			text-decoration: none;
+
+		}
+	}
+	a.menuButton {
+	  cursor: pointer;
+	  display: inline-block;
+	  width: 100%;
+	  font-size: 2em;
+	  padding: 5px 15px 5px 0;
+	  margin: 0px auto;
+	  color: $dblue;
+	   
+	  @include bp($med){
+
+	      display: none !important; 
+	      
+	  }
+	}
+
+
+
+	p.number {
+		font-size: 1em;
+	}
+	
+	ul {
+		list-style: none;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	li{
+		
+	
+		a{
+			display: inline-block;
+			font-size: 1.1em;
+			padding: 7px 4px 7px;
+			transition: all .5s ease;
+			position: relative;
+			text-decoration: none;
+			color: $dblue;
+			font-family: $fontB;
+
+			
+			@include bp(375em / 16){
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			@include bp(670em / 16){
+				padding-left: 16px;
+				padding-right: 16px;
+			}
+
+			@include bp($hover){
+				&:hover{
+					color: #2d7885;
+				}
+			}
+		}
+	}
+	
+	
+
+
+	div.headWrapper {
+
+		margin: 0 auto;
+		margin-left: 4%;
+		margin-right: 4%;
+		position: relative;
+	}
+
+}
