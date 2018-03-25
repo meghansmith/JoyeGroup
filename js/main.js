@@ -9,4 +9,10 @@ $(document).ready(function(){
 	var msnry = new Masonry( container, {
 	itemSelector: '.eventS'
 	});
+	$('a').click(function(){
+	   $('html, body').animate({
+	       scrollTop: $( $.attr(this, 'href') ).offset().top
+	   }, 500);
+	   return false;
+	});
 });
