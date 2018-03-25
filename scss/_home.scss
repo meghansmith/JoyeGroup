@@ -76,7 +76,55 @@ body.home{
 		}
 	}
 
+	.testimonial {
+		color: $dgreen;
 
+		.inner{
+			padding: 23px 23px 0;
+			position: relative;
 
+			.top, .bottom {
+				position: absolute;
+				width: 46px;
+				height: 46px;
+			}
+			.top {
+				top: 0;
+				border-top: 2px solid $dgreen;
+			}
+			.bottom {
+				bottom: 0;
+				border-bottom: 2px solid $dgreen;
+			}
+			.left {
+				left: 0;
+				border-left: 2px solid $dgreen;
+			}
+			.right {
+				right: 0;
+				border-right: 2px solid $dgreen;
+			}
+		}
+
+		.quote {
+			font-family: $fontH;
+			font-size: 1.5em;
+
+		}
+		.fa-quote-left {
+			margin-bottom: 11px;
+		}
+		.testimonialAttribution {
+			font-weight: 700;
+			padding-bottom: 23px;
+			font-size: .9em;
+
+		}
+
+	}
+
+	.form {
+		background-image: url(../images/formBackground.jpg);
+	}
 
 }

@@ -481,6 +481,38 @@ body.home .services {
     margin-top: 12px;
     margin-bottom: 12px;
     line-height: 1.1em; }
+body.home .testimonial {
+  color: #0b460a; }
+  body.home .testimonial .inner {
+    padding: 23px 23px 0;
+    position: relative; }
+    body.home .testimonial .inner .top, body.home .testimonial .inner .bottom {
+      position: absolute;
+      width: 46px;
+      height: 46px; }
+    body.home .testimonial .inner .top {
+      top: 0;
+      border-top: 2px solid #0b460a; }
+    body.home .testimonial .inner .bottom {
+      bottom: 0;
+      border-bottom: 2px solid #0b460a; }
+    body.home .testimonial .inner .left {
+      left: 0;
+      border-left: 2px solid #0b460a; }
+    body.home .testimonial .inner .right {
+      right: 0;
+      border-right: 2px solid #0b460a; }
+  body.home .testimonial .quote {
+    font-family: "PT Sans", sans-serif;
+    font-size: 1.5em; }
+  body.home .testimonial .fa-quote-left {
+    margin-bottom: 11px; }
+  body.home .testimonial .testimonialAttribution {
+    font-weight: 700;
+    padding-bottom: 23px;
+    font-size: .9em; }
+body.home .form {
+  background-image: url(../images/formBackground.jpg); }
 
 footer {
   background-image: url("../images/paisley.jpg");
