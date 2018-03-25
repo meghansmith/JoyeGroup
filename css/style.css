@@ -512,7 +512,10 @@ body.home .testimonial {
     padding-bottom: 23px;
     font-size: .9em; }
 body.home .form {
-  background-image: url(../images/formBackground.jpg); }
+  background-image: url(../images/formBackground.jpg);
+  padding-top: 46px;
+  padding-bototm: 46px;
+  background-position: 60%; }
 
 footer {
   background-image: url("../images/paisley.jpg");
