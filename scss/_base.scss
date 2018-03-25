@@ -253,8 +253,9 @@ section {
     }
 
 }
-.form .cognito a {
-  display: none !important;
+
+form .cognito a {
+  visibility: hidden;
 }
 
 .button {
