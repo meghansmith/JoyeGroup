@@ -231,7 +231,8 @@ section {
   padding-top: 46px;
   padding-bototm: 46px;
   background-position: 45%;
-  background-size: cover; }
+  background-size: cover;
+  margin-bottom: 46px; }
   .form h2 {
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.75);
     background-color: rgba(255, 255, 255, 0.7);
@@ -528,38 +529,32 @@ body.home .testimonial {
     font-size: .9em; }
 
 footer {
-  background-image: url("../images/paisley.jpg");
-  border-bottom: 5px solid #a6a3a1;
-  width: 100%;
-  text-align: center;
-  color: #0b460a;
-  padding: 1px 2% 0; }
-  @media (min-width: 31.25em) {
-    footer {
-      padding-left: 4%;
-      padding-right: 4%; } }
-  @media (min-width: 40.625em) {
-    footer div {
-      max-width: 650px;
-      margin: 0 auto; } }
-  @media (min-width: 40.625em) {
-    footer .logoReplace a {
-      float: left;
-      width: 50%;
-      background-size: contain;
-      background-repeat: no-repeat;
-      margin-right: 5%; } }
-  footer .hobbies {
-    text-align: left; }
-    @media (min-width: 40.625em) {
-      footer .hobbies {
-        padding-top: 7px; } }
-  footer .copyright {
-    font-size: 12px;
-    margin-bottom: 0; }
-    @media (min-width: 40.625em) {
-      footer .copyright {
-        text-align: left;
-        clear: left; } }
+  background-color: #223474;
+  color: #f3eee5;
+  padding-top: 23px; }
+  footer a {
+    color: #f3eee5;
+    display: inline-block;
+    padding: 4px 23px 4px 0;
+    font-family: "Source Serif Pro", serif;
+    text-decoration: none; }
+  footer li {
+    display: inline; }
+  footer ul {
+    list-style: none;
+    padding-left: none; }
+  footer .subFooter {
+    background-color: #0b460a;
+    font-family: "PT Sans", sans-serif;
+    font-size: .9em;
+    padding-top: 11px;
+    line-height: 1.2em; }
+    footer .subFooter .copyright {
+      margin-bottom: 11px; }
+    footer .subFooter .attribution {
+      padding-bottom: 11px; }
+      footer .subFooter .attribution a {
+        text-decoration: underline;
+        padding-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */
