@@ -223,6 +223,9 @@ section {
     section {
       padding-top: 12px; } }
 
+.form .cognito a {
+  display: none !important; }
+
 .button {
   text-align: center;
   text-decoration: none;
