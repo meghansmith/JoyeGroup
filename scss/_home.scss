@@ -142,8 +142,8 @@ body.home{
 			border: 2px solid $dblue;
 		}
 
-		a[style=inline]{
-			display: none !important;
+		a[href~="cognito"]{
+			visibility:hidden;
 		}
 	}
 
