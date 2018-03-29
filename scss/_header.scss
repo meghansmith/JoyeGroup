@@ -4,10 +4,14 @@ header{
 		margin: 0 0 20px;
 	}
 	.contactInfo {
-		// position: absolute;
-		// right: 0;
-		// top:14px;
+
 		text-align: right;
+
+		@include bp($xsmall){
+			position: absolute;
+			right: 0;
+			top: 14px;
+		}
 
 
 		.cta{

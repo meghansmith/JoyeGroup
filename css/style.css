@@ -399,6 +399,11 @@ header {
     margin: 0 0 20px; }
   header .contactInfo {
     text-align: right; }
+    @media (min-width: 34.375em) {
+      header .contactInfo {
+        position: absolute;
+        right: 0;
+        top: 14px; } }
     header .contactInfo .cta {
       display: inline-block;
       border: 4px solid #ce7304;
@@ -462,8 +467,24 @@ body.home .intro {
   body.home .intro .background {
     background-color: rgba(255, 255, 255, 0.75);
     padding: 23px 4%; }
+    @media (min-width: 34.375em) {
+      body.home .intro .background {
+        max-width: 75%;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+78,ffffff+100&0.75+86,0+100 */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */
+        padding-bottom: 92px; } }
   body.home .intro h2, body.home .intro p, body.home .intro .cta {
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.75); }
+    @media (min-width: 34.375em) {
+      body.home .intro h2, body.home .intro p, body.home .intro .cta {
+        max-width: 90%; } }
   body.home .intro .cta {
     font-size: 1.2em;
     text-decoration: none;
@@ -482,12 +503,22 @@ body.home .services {
     color: #f3eee5;
     line-height: 1.35em;
     padding: 46px 0 23px; }
+  body.home .services .flexWrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch; }
   body.home .services .flexItem {
     display: inline-block;
     background-color: rgba(243, 238, 229, 0.7);
     padding: 23px 4%;
     margin-bottom: 23px;
-    border-radius: 4px; }
+    border-radius: 4px;
+    flex: 1 100%; }
+    @media (min-width: 40.625em) {
+      body.home .services .flexItem {
+        flex: 1 auto;
+        max-width: 48%; } }
   body.home .services a {
     text-decoration: none; }
     body.home .services a h4, body.home .services a p {
@@ -497,6 +528,9 @@ body.home .services {
     margin-top: 12px;
     margin-bottom: 12px;
     line-height: 1.1em; }
+    @media (min-width: 34.375em) {
+      body.home .services h4 {
+        font-size: 1.6em; } }
 body.home .testimonial {
   color: #0b460a; }
   body.home .testimonial .inner {
@@ -518,6 +552,12 @@ body.home .testimonial {
     body.home .testimonial .inner .right {
       right: 0;
       border-right: 2px solid #0b460a; }
+  @media (min-width: 34.375em) {
+    body.home .testimonial img {
+      max-width: 50%;
+      float: left;
+      padding-right: 4%;
+      padding-bottom: 2px; } }
   body.home .testimonial .quote {
     font-family: "PT Sans", sans-serif;
     font-size: 1.5em; }
@@ -552,9 +592,13 @@ footer {
     footer .subFooter .copyright {
       margin-bottom: 11px; }
     footer .subFooter .attribution {
-      padding-bottom: 11px; }
+      padding-bottom: 11px;
+      margin-bottom: 0; }
       footer .subFooter .attribution a {
         text-decoration: underline;
         padding-bottom: 0; }
+      @media (min-width: 40.625em) {
+        footer .subFooter .attribution {
+          text-align: right; } }
 
 /*# sourceMappingURL=style.css.map */

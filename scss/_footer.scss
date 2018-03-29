@@ -33,10 +33,14 @@ footer {
 		}
 		.attribution {
 			padding-bottom: 11px;
-
+			margin-bottom: 0;
 			a {
 				text-decoration: underline;
 				padding-bottom: 0;
+			}
+
+			@include bp($small){
+				text-align: right;
 			}
 		}
 	}
