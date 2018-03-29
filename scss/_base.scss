@@ -287,9 +287,12 @@ section {
 
       }
   }
+  .c-forms-form {
+    margin: 0 auto;
+  }
   .c-forms-form-body {
     padding: 23px 4%;
-    margin: 0 auto;
+
   }
   .cognito .c-forms-form input[type=text]{
     border: 2px solid $dblue;

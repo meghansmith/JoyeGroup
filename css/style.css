@@ -253,9 +253,10 @@ section {
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 );
         /* IE6-9 */ } }
-  .form .c-forms-form-body {
-    padding: 23px 4%;
+  .form .c-forms-form {
     margin: 0 auto; }
+  .form .c-forms-form-body {
+    padding: 23px 4%; }
   .form .cognito .c-forms-form input[type=text] {
     border: 2px solid #223474; }
 
