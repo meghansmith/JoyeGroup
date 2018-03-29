@@ -30,6 +30,11 @@ footer {
 
 		.copyright {
 			margin-bottom: 11px;
+
+			@include bp(840px){
+				float:left;
+				padding-top: 4px;
+			}
 		}
 		.attribution {
 			padding-bottom: 11px;
@@ -42,6 +47,11 @@ footer {
 			@include bp($small){
 				text-align: right;
 			}
+				@include bp(840px){
+				float:right;
+			}
+
+
 		}
 	}
 

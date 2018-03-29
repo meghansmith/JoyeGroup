@@ -173,7 +173,7 @@ a {
   margin: 0 auto; }
   .logoReplace a:after {
     display: none; }
-  @media (min-width: 40.625em) {
+  @media (min-width: 34.375em) {
     .logoReplace a {
       width: 250px;
       height: 115px; } }
@@ -202,9 +202,13 @@ img {
   max-width: 100%; }
 
 .wrapper {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   position: relative; }
+
+.inner {
+  max-width: 660px;
+  margin: 0 auto; }
 
 .bold {
   font-weight: 700; }
@@ -421,7 +425,7 @@ header {
     padding: 5px 15px 5px 0;
     margin: 0px auto;
     color: #223474; }
-    @media (min-width: 62.5em) {
+    @media (min-width: 50.625em) {
       header a.menuButton {
         display: none !important; } }
   header p.number {
@@ -430,8 +434,16 @@ header {
     list-style: none;
     padding: 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between; }
+    @media (min-width: 50.625em) {
+      header ul {
+        display: flex !important; } }
+  @media (min-width: 50.625em) {
+    header li {
+      display: inline-block;
+      flex: 1 auto; }
+      header li:last-child a {
+        padding-right: 0; } }
   header li a {
     display: inline-block;
     font-size: 1.1em;
@@ -441,14 +453,9 @@ header {
     text-decoration: none;
     color: #223474;
     font-family: "Source Serif Pro", serif; }
-    @media (min-width: 23.4375em) {
+    @media (min-width: 50.625em) {
       header li a {
-        padding-left: 10px;
-        padding-right: 10px; } }
-    @media (min-width: 41.875em) {
-      header li a {
-        padding-left: 16px;
-        padding-right: 16px; } }
+        padding-bottom: 0; } }
     @media (min-width: 64.0625em) {
       header li a:hover {
         color: #2d7885; } }
@@ -457,13 +464,29 @@ header {
     margin-left: 4%;
     margin-right: 4%;
     position: relative; }
+    @media (min-width: 75em) {
+      header div.headWrapper {
+        max-width: 1100px;
+        margin: 0 auto; } }
 
 body.home .intro {
   background-image: url(../images/hero.gif);
   background-size: cover;
   background-position: 53%;
-  display: inline-block;
   margin-bottom: 46px; }
+  @media (min-width: 50.625em) {
+    body.home .intro {
+      background-position: 0%;
+      margin: 0 auto;
+      margin-bottom: 46px; } }
+  @media (min-width: 62.5em) {
+    body.home .intro {
+      padding-top: 46px;
+      padding-bottom: 46px; } }
+  @media (min-width: 75em) {
+    body.home .intro {
+      max-width: 1100px;
+      margin: 0 auto; } }
   body.home .intro .background {
     background-color: rgba(255, 255, 255, 0.75);
     padding: 23px 4%; }
@@ -479,7 +502,12 @@ body.home .intro {
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 );
         /* IE6-9 */
-        padding-bottom: 92px; } }
+        padding-bottom: 0;
+        margin-bottom: 92px;
+        margin-top: 23px; } }
+    @media (min-width: 40.625em) {
+      body.home .intro .background {
+        max-width: 60%; } }
   body.home .intro h2, body.home .intro p, body.home .intro .cta {
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.75); }
     @media (min-width: 34.375em) {
@@ -493,7 +521,6 @@ body.home .intro {
     margin-bottom: 23px; }
 body.home .tagline {
   color: #0b460a;
-  display: inline-block;
   margin-bottom: 23px; }
 body.home .services {
   background-image: url("../images/servicesBackground.jpg");
@@ -503,6 +530,9 @@ body.home .services {
     color: #f3eee5;
     line-height: 1.35em;
     padding: 46px 0 23px; }
+    @media (min-width: 50.625em) {
+      body.home .services h3 {
+        max-width: 75%; } }
   body.home .services .flexWrap {
     display: flex;
     flex-flow: row wrap;
@@ -519,6 +549,10 @@ body.home .services {
       body.home .services .flexItem {
         flex: 1 auto;
         max-width: 48%; } }
+    @media (min-width: 75em) {
+      body.home .services .flexItem {
+        max-width: 23.5%;
+        padding: 23px; } }
   body.home .services a {
     text-decoration: none; }
     body.home .services a h4, body.home .services a p {
@@ -591,6 +625,10 @@ footer {
     line-height: 1.2em; }
     footer .subFooter .copyright {
       margin-bottom: 11px; }
+      @media (min-width: 840px) {
+        footer .subFooter .copyright {
+          float: left;
+          padding-top: 4px; } }
     footer .subFooter .attribution {
       padding-bottom: 11px;
       margin-bottom: 0; }
@@ -600,5 +638,8 @@ footer {
       @media (min-width: 40.625em) {
         footer .subFooter .attribution {
           text-align: right; } }
+      @media (min-width: 840px) {
+        footer .subFooter .attribution {
+          float: right; } }
 
 /*# sourceMappingURL=style.css.map */

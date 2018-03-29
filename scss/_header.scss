@@ -52,12 +52,22 @@ header{
 		list-style: none;
 		padding: 0;
 		display: flex;
-		flex-wrap: wrap;
 		justify-content: space-between;
+
+		@include bp($med){
+				display: flex !important;
+			}
 	}
 
 	li{
-		
+		@include bp($med){
+				display: inline-block;
+				flex: 1 auto;
+
+				&:last-child a{
+					padding-right: 0;
+				}
+			}
 	
 		a{
 			display: inline-block;
@@ -69,15 +79,10 @@ header{
 			color: $dblue;
 			font-family: $fontB;
 
-			
-			@include bp(375em / 16){
-				padding-left: 10px;
-				padding-right: 10px;
+			@include bp($med){
+				padding-bottom: 0;
 			}
-			@include bp(670em / 16){
-				padding-left: 16px;
-				padding-right: 16px;
-			}
+
 
 			@include bp($hover){
 				&:hover{
@@ -85,6 +90,8 @@ header{
 				}
 			}
 		}
+
+	
 	}
 	
 	
@@ -96,6 +103,12 @@ header{
 		margin-left: 4%;
 		margin-right: 4%;
 		position: relative;
+
+
+		@include bp($xlarge){
+					max-width: 1100px;
+			margin: 0 auto;
+		}
 	}
 
 }
