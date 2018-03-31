@@ -206,6 +206,9 @@ a{
       width: 250px;
       height: 115px;
     }
+    @include bp($hover){
+      opacity: 1;
+    }
 }
 
 [class^="icon-"], [class*=" icon-"] {

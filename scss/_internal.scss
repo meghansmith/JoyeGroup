@@ -1,0 +1,140 @@
+body.internal{
+	.header {
+		background-image: url(../images/servicesbackground.jpg);
+		background-size: cover;
+		background-position: 53%;
+		margin-bottom: 46px;
+
+		@include bp($med){
+			background-position: 0%;
+			margin: 0 auto;
+			margin-bottom: 46px;
+			}
+
+		@include bp($large){
+			padding-top:46px;
+			padding-bottom: 46px;
+		}
+
+		
+		
+		.background{
+			
+			padding: 23px 4%;
+
+			@include bp($xsmall){
+				padding-bottom: 0;
+				margin-bottom: 23px * 4;
+				margin-top: 23px;
+
+			}
+
+			@include bp($xlarge){
+				max-width: 1100px;
+				margin: 0 auto;
+				margin-bottom: 46px;
+			}
+		}
+
+		h2, p{
+			color: $tan;
+			max-width: 660px;
+		}
+	
+	}
+
+	.internalDetail {
+		flex: 1 100%;
+		
+		@include bp($med){
+			flex-grow: 3;
+			flex-shrink: 1;
+		}
+	
+
+		ul {
+			margin-bottom: 46px;
+			max-width: 660px;
+		}
+	}
+
+	.testimonial {
+		color: $dgreen;
+		padding-bottom: 23px;
+		flex-grow: 1;
+
+		@include bp($small){
+			padding-top: 23px*2;
+			padding-bottom: 23px*3;
+		}
+		@include bp($med){
+			flex-shrink: 2;
+			padding: 0;
+		}
+
+		.testimonialWrapper{
+			padding: 23px 23px 0;
+			position: relative;
+			max-width: 660px;
+
+
+
+			.top, .bottom {
+				position: absolute;
+				width: 92px;
+				height: 92px;
+			}
+			.top {
+				top: 0;
+				border-top: 2px solid $dgreen;
+			}
+			.bottom {
+				bottom: 0;
+				border-bottom: 2px solid $dgreen;
+			}
+			.left {
+				left: 0;
+				border-left: 2px solid $dgreen;
+			}
+			.right {
+				right: 0;
+				border-right: 2px solid $dgreen;
+			}
+		}
+
+		img {
+			@include bp($xsmall){
+
+				max-width: 50%;
+				float: left;
+				padding-right: 4%;
+				padding-bottom: 2px;
+			}
+			@include bp($med){
+				max-width: 100%;
+			}
+		}
+
+		.quote {
+			font-family: $fontH;
+			font-size: 1.5em;
+
+		}
+		.fa-quote-left {
+			margin-bottom: 11px;
+		}
+		.testimonialAttribution {
+			font-weight: 700;
+			padding-bottom: 23px;
+			font-size: .9em;
+
+		}	
+	}
+	.flexWrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+}
