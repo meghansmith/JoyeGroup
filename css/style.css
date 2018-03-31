@@ -240,7 +240,7 @@ section {
   background-image: url(../images/formBackground.jpg);
   padding-top: 46px;
   padding-bototm: 46px;
-  background-position: 45%;
+  background-position: 70%;
   background-size: cover;
   margin-bottom: 46px; }
   .form h2 {
@@ -505,7 +505,8 @@ body.home .intro {
   @media (min-width: 75em) {
     body.home .intro {
       max-width: 1100px;
-      margin: 0 auto; } }
+      margin: 0 auto;
+      margin-bottom: 46px; } }
   body.home .intro .background {
     background-color: rgba(255, 255, 255, 0.75);
     padding: 23px 4%; }
