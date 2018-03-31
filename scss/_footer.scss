@@ -14,10 +14,18 @@ footer {
 	}
 	li {
 		display: inline;
+
+		&first-child a {
+			padding-left: 0;
+		}
 	}
 	ul {
 		list-style: none;
-		padding-left: none;
+		padding-left: 4%;
+
+		@include bp($xlarge){
+			padding-left: 0;
+		}
 	}
 
 

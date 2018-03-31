@@ -23,6 +23,16 @@ header{
 			padding: 6px 12px;
 			font-size: 1em;
 			text-decoration: none;
+			margin-bottom: 8px;
+
+			@include bp($hover){
+
+				&:hover{
+					color: $tan;
+					background-color: $orange;
+					font-weight: 700;
+				}	
+			}
 
 		}
 	}
@@ -42,7 +52,9 @@ header{
 	  }
 	}
 
-
+	nav{
+		margin: 0 auto;
+	}
 
 	p.number {
 		font-size: 1em;
@@ -54,6 +66,7 @@ header{
 		display: flex;
 		justify-content: space-between;
 
+
 		@include bp($med){
 				display: flex !important;
 			}
@@ -63,6 +76,7 @@ header{
 		@include bp($med){
 				display: inline-block;
 				flex: 1 auto;
+				text-align: center;
 
 				&:last-child a{
 					padding-right: 0;
@@ -78,6 +92,7 @@ header{
 			text-decoration: none;
 			color: $dblue;
 			font-family: $fontB;
+			border-bottom: 1px solid $tan;
 
 			@include bp($med){
 				padding-bottom: 0;
@@ -85,8 +100,9 @@ header{
 
 
 			@include bp($hover){
+				opacity: 1;
 				&:hover{
-					color: #2d7885;
+					border-bottom: 1px solid $dblue;
 				}
 			}
 		}

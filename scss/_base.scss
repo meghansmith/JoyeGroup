@@ -182,6 +182,14 @@ p, ul, ol, {
 }
 a{
   color: $orange;
+  transition:  all .5s ease;
+
+  @include bp($hover){
+    opacity: .8;
+    &:hover{
+      opacity: 1;
+    }
+  }
 }
 .logoReplace a {
     display: inline-block;
@@ -217,7 +225,7 @@ a{
 
 .icon-sme:before {
   content: "\e903";
-  color: #ce7304;
+  color: inherit;
 
 }
 #sme {
@@ -299,23 +307,23 @@ section {
   }
 
 }
-.button {
-  text-align: center;
-  text-decoration: none;
-  padding: 10px 20px;
-  border: 2px solid $lblue;
-  margin-top: 0px;
-  display: inline-block;
-  font-weight: 300;
-  font-size: 18px;
+// .button {
+//   text-align: center;
+//   text-decoration: none;
+//   padding: 10px 20px;
+//   border: 2px solid $lblue;
+//   margin-top: 0px;
+//   display: inline-block;
+//   font-weight: 300;
+//   font-size: 18px;
 
-  @include bp($hover){
-    &:hover{
-      background-color: $lblue;
+//   @include bp($hover){
+//     &:hover{
+//       background-color: $lblue;
 
-    }
-  }
-}
+//     }
+//   }
+// }
 
 
 

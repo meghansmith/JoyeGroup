@@ -58,6 +58,14 @@ body.home{
 			font-weight: 700;
 			display: inline-block;
 			margin-bottom: 23px;
+			border-bottom: 1px solid rgba(2,2,2,0);
+
+			@include bp($hover){
+				opacity:1;
+				&:hover{
+					border-bottom: 1px solid $orange;
+				}	
+			}
 
 		}
 	}
@@ -65,7 +73,11 @@ body.home{
 	.tagline {
 		color: $dgreen;
 		//display: inline-block;
-		margin-bottom: 23px;
+		margin-bottom: 23px*2;
+
+		@include bp($small){
+			margin-bottom: 23px*4;
+		}
 	}
 
 	.services{
@@ -102,6 +114,7 @@ body.home{
 			margin-bottom: 23px;
 			border-radius: 4px;
 			flex: 1 100%;
+			border: 6px solid rgba(243,238,229,0);
 
 			@include bp($small){
 				flex: 1 auto;
@@ -112,10 +125,29 @@ body.home{
 				max-width: 23.5%;
 				padding: 23px;
 			}
+
+			@include bp($hover){
+				&:hover{
+					background-color: $tan;
+					border: 6px solid $dgreen;
+				}
+			}
 		}
 
 		a {
 				text-decoration: none;
+				opacity: 1;
+
+				@include bp($hover){
+					
+						&:hover{
+						color: $dgreen;
+						}
+					
+					
+				}
+
+
 				
 
 			h4, p {

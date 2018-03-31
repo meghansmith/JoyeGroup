@@ -161,7 +161,13 @@ p, ul, ol {
   font-family: "Source Serif Pro", serif; }
 
 a {
-  color: #ce7304; }
+  color: #ce7304;
+  transition: all .5s ease; }
+  @media (min-width: 64.0625em) {
+    a {
+      opacity: .8; }
+      a:hover {
+        opacity: 1; } }
 
 .logoReplace a {
   display: inline-block;
@@ -193,7 +199,7 @@ a {
 
 .icon-sme:before {
   content: "\e903";
-  color: #ce7304; }
+  color: inherit; }
 
 #sme {
   text-decoration: none; }
@@ -259,19 +265,6 @@ section {
     padding: 23px 4%; }
   .form .cognito .c-forms-form input[type=text] {
     border: 2px solid #223474; }
-
-.button {
-  text-align: center;
-  text-decoration: none;
-  padding: 10px 20px;
-  border: 2px solid #a9cfe0;
-  margin-top: 0px;
-  display: inline-block;
-  font-weight: 300;
-  font-size: 18px; }
-  @media (min-width: 64.0625em) {
-    .button:hover {
-      background-color: #a9cfe0; } }
 
 /* ==========================================================================
    Helper classes
@@ -430,7 +423,13 @@ header {
       background-color: #f3eee5;
       padding: 6px 12px;
       font-size: 1em;
-      text-decoration: none; }
+      text-decoration: none;
+      margin-bottom: 8px; }
+      @media (min-width: 64.0625em) {
+        header .contactInfo .cta:hover {
+          color: #f3eee5;
+          background-color: #ce7304;
+          font-weight: 700; } }
   header a.menuButton {
     cursor: pointer;
     display: inline-block;
@@ -442,6 +441,8 @@ header {
     @media (min-width: 50.625em) {
       header a.menuButton {
         display: none !important; } }
+  header nav {
+    margin: 0 auto; }
   header p.number {
     font-size: 1em; }
   header ul {
@@ -455,7 +456,8 @@ header {
   @media (min-width: 50.625em) {
     header li {
       display: inline-block;
-      flex: 1 auto; }
+      flex: 1 auto;
+      text-align: center; }
       header li:last-child a {
         padding-right: 0; } }
   header li a {
@@ -466,13 +468,16 @@ header {
     position: relative;
     text-decoration: none;
     color: #223474;
-    font-family: "Source Serif Pro", serif; }
+    font-family: "Source Serif Pro", serif;
+    border-bottom: 1px solid #f3eee5; }
     @media (min-width: 50.625em) {
       header li a {
         padding-bottom: 0; } }
     @media (min-width: 64.0625em) {
-      header li a:hover {
-        color: #2d7885; } }
+      header li a {
+        opacity: 1; }
+        header li a:hover {
+          border-bottom: 1px solid #223474; } }
   header div.headWrapper {
     margin: 0 auto;
     margin-left: 4%;
@@ -532,10 +537,19 @@ body.home .intro {
     text-decoration: none;
     font-weight: 700;
     display: inline-block;
-    margin-bottom: 23px; }
+    margin-bottom: 23px;
+    border-bottom: 1px solid rgba(2, 2, 2, 0); }
+    @media (min-width: 64.0625em) {
+      body.home .intro .cta {
+        opacity: 1; }
+        body.home .intro .cta:hover {
+          border-bottom: 1px solid #ce7304; } }
 body.home .tagline {
   color: #0b460a;
-  margin-bottom: 23px; }
+  margin-bottom: 46px; }
+  @media (min-width: 40.625em) {
+    body.home .tagline {
+      margin-bottom: 92px; } }
 body.home .services {
   background-image: url("../images/servicesBackground.jpg");
   padding-bottom: 1px;
@@ -558,7 +572,8 @@ body.home .services {
     padding: 23px 4%;
     margin-bottom: 23px;
     border-radius: 4px;
-    flex: 1 100%; }
+    flex: 1 100%;
+    border: 6px solid rgba(243, 238, 229, 0); }
     @media (min-width: 40.625em) {
       body.home .services .flexItem {
         flex: 1 auto;
@@ -567,8 +582,16 @@ body.home .services {
       body.home .services .flexItem {
         max-width: 23.5%;
         padding: 23px; } }
+    @media (min-width: 64.0625em) {
+      body.home .services .flexItem:hover {
+        background-color: #f3eee5;
+        border: 6px solid #0b460a; } }
   body.home .services a {
-    text-decoration: none; }
+    text-decoration: none;
+    opacity: 1; }
+    @media (min-width: 64.0625em) {
+      body.home .services a:hover {
+        color: #0b460a; } }
     body.home .services a h4, body.home .services a p {
       color: #223474; }
   body.home .services h4 {
@@ -628,9 +651,14 @@ footer {
     text-decoration: none; }
   footer li {
     display: inline; }
+    footer lifirst-child a {
+      padding-left: 0; }
   footer ul {
     list-style: none;
-    padding-left: none; }
+    padding-left: 4%; }
+    @media (min-width: 75em) {
+      footer ul {
+        padding-left: 0; } }
   footer .subFooter {
     background-color: #0b460a;
     font-family: "PT Sans", sans-serif;
