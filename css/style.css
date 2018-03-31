@@ -659,16 +659,23 @@ footer {
   footer a {
     color: #f3eee5;
     display: inline-block;
-    padding: 4px 23px 4px 0;
+    padding: 4px 12px;
     font-family: "Source Serif Pro", serif;
-    text-decoration: none; }
+    text-decoration: none;
+    border-bottom: 1px solid #223474; }
+    @media (min-width: 64.0625em) {
+      footer a {
+        opacity: 1; }
+        footer a:hover {
+          border-bottom: 1px solid #f3eee5; } }
   footer li {
     display: inline; }
-    footer lifirst-child a {
+    footer li:first-child a {
       padding-left: 0; }
   footer ul {
     list-style: none;
-    padding-left: 4%; }
+    padding-left: 4%;
+    max-width: 1100px; }
     @media (min-width: 75em) {
       footer ul {
         padding-left: 0; } }

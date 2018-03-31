@@ -13,20 +13,31 @@ footer {
 	a {
 		color: $tan;
 		display: inline-block;
-		padding: 4px 23px 4px 0;
+		padding: 4px 12px;
 		font-family: $fontB;
 		text-decoration: none;
+		border-bottom: 1px solid $dblue;
+
+		@include bp($hover){
+			opacity: 1;
+
+			&:hover{
+				border-bottom: 1px solid $tan;
+			}
+		}
 	}
 	li {
 		display: inline;
 
-		&first-child a {
+		&:first-child a {
 			padding-left: 0;
 		}
 	}
 	ul {
 		list-style: none;
 		padding-left: 4%;
+
+		max-width: 1100px;
 
 		@include bp($xlarge){
 			padding-left: 0;
