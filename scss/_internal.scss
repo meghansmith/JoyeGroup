@@ -131,10 +131,13 @@ body.internal{
 		}	
 	}
 	.flexWrapper {
-		display: flex;
-		justify-content: space-between;
-		align-items: flex-start;
-		max-width: 1100px;
-		margin: 0 auto;
+		@include bp($med){
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			max-width: 1100px;
+			margin: 0 auto;
+		}
+		
 	}
 }
