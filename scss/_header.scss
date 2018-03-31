@@ -93,6 +93,10 @@ header{
 			color: $dblue;
 			font-family: $fontB;
 			border-bottom: 1px solid $tan;
+			&.focused{
+				color: $dgreen;
+				border-bottom: 1px solid $dgreen;
+			}
 
 			@include bp($med){
 				padding-bottom: 0;

@@ -470,6 +470,9 @@ header {
     color: #223474;
     font-family: "Source Serif Pro", serif;
     border-bottom: 1px solid #f3eee5; }
+    header li a.focused {
+      color: #0b460a;
+      border-bottom: 1px solid #0b460a; }
     @media (min-width: 50.625em) {
       header li a {
         padding-bottom: 0; } }
