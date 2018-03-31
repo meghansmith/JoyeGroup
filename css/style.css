@@ -431,8 +431,7 @@ header {
       @media (min-width: 64.0625em) {
         header .contactInfo .cta:hover {
           color: #f3eee5;
-          background-color: #ce7304;
-          font-weight: 700; } }
+          background-color: #ce7304; } }
   header a.menuButton {
     cursor: pointer;
     display: inline-block;
