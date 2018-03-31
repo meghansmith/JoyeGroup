@@ -552,8 +552,11 @@ body.home .tagline {
       margin-bottom: 92px; } }
 body.home .services {
   background-image: url("../images/servicesBackground.jpg");
-  padding-bottom: 1px;
+  padding-bottom: 23px;
   margin-bottom: 46px; }
+  @media (min-width: 40.625em) {
+    body.home .services {
+      padding-bottom: 69px; } }
   body.home .services h3 {
     color: #f3eee5;
     line-height: 1.35em;
@@ -603,7 +606,12 @@ body.home .services {
       body.home .services h4 {
         font-size: 1.6em; } }
 body.home .testimonial {
-  color: #0b460a; }
+  color: #0b460a;
+  padding-bottom: 23px; }
+  @media (min-width: 40.625em) {
+    body.home .testimonial {
+      padding-top: 46px;
+      padding-bottom: 69px; } }
   body.home .testimonial .inner {
     padding: 23px 23px 0;
     position: relative; }
@@ -642,7 +650,12 @@ body.home .testimonial {
 footer {
   background-color: #223474;
   color: #f3eee5;
-  padding-top: 23px; }
+  padding-top: 23px;
+  display: inline-block;
+  width: 100%; }
+  @media (min-width: 40.625em) {
+    footer {
+      margin-top: 46px; } }
   footer a {
     color: #f3eee5;
     display: inline-block;

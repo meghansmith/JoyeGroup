@@ -2,6 +2,11 @@ footer {
 	background-color: $dblue;
 	color: $tan;
 	padding-top: 23px;
+	display: inline-block;
+	width: 100%;
+	@include bp($small){
+		margin-top: 23px*2;
+	}
 
 
 
