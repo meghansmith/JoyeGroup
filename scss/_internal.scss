@@ -56,6 +56,17 @@ body.internal{
 			margin-bottom: 46px;
 			max-width: 660px;
 		}
+
+		.quotation{
+			color: $dgreen;
+			margin: 0 10%;
+		}
+		.attribution {
+			font-family: $fontH;
+			font-size: .9em;
+			font-weight: bold;
+
+		}
 	}
 
 	.testimonial {
