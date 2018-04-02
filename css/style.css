@@ -755,6 +755,8 @@ body.internal .testimonial {
     align-items: flex-start;
     max-width: 1100px;
     margin: 0 auto; } }
+body.internal ul.subList {
+  margin-bottom: 0; }
 
 footer {
   background-color: #223474;
