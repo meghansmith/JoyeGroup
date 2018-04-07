@@ -667,6 +667,9 @@ body.internal .header {
     body.internal .header {
       padding-top: 46px;
       padding-bottom: 46px; } }
+  body.internal .header .introText {
+    font-size: 1.3em;
+    line-height: 1.3em; }
   body.internal .header .background {
     padding: 23px 4%; }
     @media (min-width: 34.375em) {
