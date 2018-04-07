@@ -268,10 +268,10 @@ section {
     padding: 23px 4%; }
   .form .cognito .c-forms-form input[type=text] {
     border: 2px solid #223474; }
-  .form .cognito p span {
+  .form .cognito span p {
     color: #f3eee5;
-    font-size: 1.3em;
-    line-height: 1.3em; }
+    font-size: 1.5em;
+    line-height: 1.5em; }
 
 /* ==========================================================================
    Helper classes
