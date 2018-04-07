@@ -307,6 +307,11 @@ section {
   .cognito .c-forms-form input[type=text]{
     border: 2px solid $dblue;
   }
+  .cognito p span {
+    color: $tan;
+    font-size: 1.3em;
+    line-height: 1.3em;
+  }
 
 }
 // .button {
