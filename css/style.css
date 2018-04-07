@@ -494,7 +494,7 @@ header {
         margin: 0 auto; } }
 
 body.home .intro {
-  background-image: url(../images/hero.gif);
+  background-image: url(../images/hero.jpg);
   background-size: cover;
   background-position: 53%;
   margin-bottom: 46px; }
