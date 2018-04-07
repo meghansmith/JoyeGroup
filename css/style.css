@@ -682,6 +682,10 @@ body.internal .header {
   body.internal .header h2, body.internal .header p {
     color: #f3eee5;
     max-width: 660px; }
+  body.internal .header svg, body.internal .header .icon-sme:before {
+    color: #ce7304;
+    font-size: 1.3em;
+    margin-right: 3px; }
 body.internal .internalDetail {
   flex: 1 100%; }
   @media (min-width: 50.625em) {
