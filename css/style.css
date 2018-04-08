@@ -825,5 +825,12 @@ footer {
       @media (min-width: 840px) {
         footer .subFooter .attribution {
           float: right; } }
+    footer .subFooter a {
+      border-bottom: none; }
+      @media (min-width: 64.0625em) {
+        footer .subFooter a:hover {
+          border-bottom: none;
+          color: #fff;
+          opacity: 1; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -77,6 +77,18 @@ footer {
 
 
 		}
+		a {
+		border-bottom: none;
+
+		@include bp($hover){
+
+			&:hover{
+				border-bottom: none;
+				color: #fff;
+				opacity: 1;
+			}
+		}
+	}
 	}
 
 }
