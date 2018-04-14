@@ -80,6 +80,7 @@ body.internal{
 	.testimonial {
 		color: $dgreen;
 		padding-bottom: 23px;
+		flex: 1 100%;
 		flex-grow: 1;
 
 		@include bp($small){

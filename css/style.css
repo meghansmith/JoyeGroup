@@ -712,6 +712,7 @@ body.internal .internalDetail {
 body.internal .testimonial {
   color: #0b460a;
   padding-bottom: 23px;
+  flex: 1 100%;
   flex-grow: 1; }
   @media (min-width: 40.625em) {
     body.internal .testimonial {
