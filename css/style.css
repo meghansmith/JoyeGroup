@@ -671,21 +671,6 @@ body.internal .header {
     body.internal .header {
       padding-top: 46px;
       padding-bottom: 46px; } }
-  body.internal .header .introText {
-    font-size: 1.3em;
-    line-height: 1.3em; }
-  body.internal .header .background {
-    padding: 23px 4%; }
-    @media (min-width: 34.375em) {
-      body.internal .header .background {
-        padding-bottom: 0;
-        margin-bottom: 92px;
-        margin-top: 23px; } }
-    @media (min-width: 75em) {
-      body.internal .header .background {
-        max-width: 1100px;
-        margin: 0 auto;
-        margin-bottom: 46px; } }
   body.internal .header h2, body.internal .header p {
     color: #f3eee5;
     max-width: 660px; }
@@ -693,6 +678,21 @@ body.internal .header {
     color: #ce7304;
     font-size: 1.3em;
     margin-right: 3px; }
+body.internal .introText {
+  font-size: 1.3em;
+  line-height: 1.3em; }
+body.internal .background {
+  padding: 23px 4%; }
+  @media (min-width: 34.375em) {
+    body.internal .background {
+      padding-bottom: 0;
+      margin-bottom: 92px;
+      margin-top: 23px; } }
+  @media (min-width: 75em) {
+    body.internal .background {
+      max-width: 1100px;
+      margin: 0 auto;
+      margin-bottom: 46px; } }
 body.internal .internalDetail {
   flex: 1 100%; }
   @media (min-width: 50.625em) {
@@ -769,6 +769,58 @@ body.internal .testimonial {
     margin: 0 auto; } }
 body.internal ul.subList {
   margin-bottom: 0; }
+
+body.sme div.headerImage {
+  background-image: url(../images/confRoom.jpg);
+  background-position: 90% 0%; }
+
+body.pm div.headerImage {
+  background-image: url(../images/pmHeader.jpg);
+  background-position: 90% 0%; }
+
+div.headerImage {
+  background-size: cover;
+  margin-bottom: 46px; }
+  div.headerImage h2, div.headerImage p {
+    color: #f3eee5; }
+  div.headerImage i, div.headerImage svg {
+    color: #ce7304; }
+  @media (min-width: 50.625em) {
+    div.headerImage {
+      margin: 0 auto;
+      margin-bottom: 46px; } }
+  @media (min-width: 62.5em) {
+    div.headerImage {
+      padding-top: 46px;
+      padding-bottom: 46px; } }
+  @media (min-width: 75em) {
+    div.headerImage {
+      max-width: 1100px;
+      margin: 0 auto;
+      margin-bottom: 46px; } }
+
+div.backgroundShade {
+  background-color: rgba(34, 52, 116, 0.75);
+  padding: 23px 4%; }
+  @media (min-width: 34.375em) {
+    div.backgroundShade {
+      max-width: 75%;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+78,ffffff+100&0.75+86,0+100 */
+      background: -moz-linear-gradient(left, #223474 0%, rgba(34, 52, 116, 0.75) 78%, rgba(34, 52, 116, 0.75) 86%, rgba(34, 52, 116, 0) 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #223474 0%, rgba(34, 52, 116, 0.75) 78%, rgba(34, 52, 116, 0.75) 86%, rgba(34, 52, 116, 0) 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, #223474 0%, rgba(34, 52, 116, 0.75) 78%, rgba(34, 52, 116, 0.75) 86%, rgba(34, 52, 116, 0) 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 );
+      /* IE6-9 */
+      padding-bottom: 0;
+      margin-top: 23px; } }
+  @media (min-width: 40.625em) {
+    div.backgroundShade {
+      max-width: 60%; }
+      div.backgroundShade .introText {
+        padding-bottom: 48px; } }
 
 footer {
   background-color: #223474;

@@ -15,6 +15,16 @@ body.internal{
 			padding-top:46px;
 			padding-bottom: 46px;
 		}
+		h2, p{
+			color: $tan;
+			max-width: 660px;
+		}
+		svg, .icon-sme:before{
+			color: $orange;
+			font-size: 1.3em;
+			margin-right: 3px;
+		}
+	}
 	.introText {
 		font-size: 1.3em;
 		line-height: 1.3em;
@@ -39,17 +49,9 @@ body.internal{
 			}
 		}
 
-		h2, p{
-			color: $tan;
-			max-width: 660px;
-		}
-		svg, .icon-sme:before{
-			color: $orange;
-			font-size: 1.3em;
-			margin-right: 3px;
-		}
+		
 	
-	}
+	
 
 	.internalDetail {
 		flex: 1 100%;
@@ -165,3 +167,66 @@ body.internal{
 		margin-bottom: 0;
 	}
 }
+
+///////Internal Header with Image////////////////////////////////
+body.sme div.headerImage{
+	background-image: url(../images/confRoom.jpg);
+	background-position: 90% 0%;
+}
+
+body.pm div.headerImage{
+	background-image: url(../images/pmHeader.jpg);
+	background-position: 90% 0%;
+}
+	div.headerImage{
+		background-size: cover;		
+		margin-bottom: 46px;
+
+		h2, p {
+			color: $tan;
+		}
+		i, svg{
+			color: $orange;
+		}
+
+		@include bp($med){
+			margin: 0 auto;
+			margin-bottom: 46px;
+		}
+
+		@include bp($large){
+			padding-top:46px;
+			padding-bottom: 46px;
+		}
+		@include bp($xlarge){
+			max-width: 1100px;
+			margin: 0 auto;
+			margin-bottom: 46px;
+		}
+	}
+	div.backgroundShade{
+		background-color: rgba(34, 52, 116,.75);
+		padding: 23px 4%;
+
+		@include bp($xsmall){
+			max-width: 75%;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+78,ffffff+100&0.75+86,0+100 */
+			background: -moz-linear-gradient(left, rgba(34, 52, 116,1) 0%, rgba(34, 52, 116,0.75) 78%, rgba(34, 52, 116,0.75) 86%, rgba(34, 52, 116,0) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(left, rgba(34, 52, 116,1) 0%,rgba(34, 52, 116,0.75) 78%,rgba(34, 52, 116,0.75) 86%,rgba(34, 52, 116,0) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to right, rgba(34, 52, 116,1) 0%,rgba(34, 52, 116,0.75) 78%,rgba(34, 52, 116,0.75) 86%,rgba(34, 52, 116,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */	
+			padding-bottom: 0;
+			margin-top: 23px;
+
+		}
+
+		@include bp($small){
+			max-width: 60%;
+
+			.introText{
+				padding-bottom:48px;
+			}
+		}
+
+		
+	}
