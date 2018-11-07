@@ -657,6 +657,10 @@ body.home .testimonial {
     padding-bottom: 23px;
     font-size: .9em; }
 
+body.internal .aboutImage {
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25px; }
 body.internal .header {
   background-image: url(../images/servicesBackground.jpg);
   background-size: cover;
