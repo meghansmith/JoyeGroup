@@ -660,7 +660,8 @@ body.home .testimonial {
 body.internal .aboutImage {
   float: left;
   margin-right: 25px;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  max-width: 50%; }
 body.internal .header {
   background-image: url(../images/servicesBackground.jpg);
   background-size: cover;
