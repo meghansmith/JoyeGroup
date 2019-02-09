@@ -667,6 +667,10 @@ body.internal .aboutImage {
       max-width: 15%; } }
 body.internal .toList {
   margin-bottom: 0; }
+body.internal .inLine {
+  margin-bottom: 23px; }
+body.internal .noSpaceTop {
+  margin-top: 0; }
 body.internal .header {
   background-image: url(../images/servicesBackground.jpg);
   background-size: cover;
