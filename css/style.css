@@ -662,6 +662,9 @@ body.internal .aboutImage {
   margin-right: 25px;
   margin-bottom: 25px;
   max-width: 50%; }
+  @media (min-width: 62.5em) {
+    body.internal .aboutImage {
+      max-width: 15%; } }
 body.internal .toList {
   margin-bottom: 0; }
 body.internal .header {
