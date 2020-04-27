@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11237828-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-11237828-1');
+</script>
+
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JoyeGroup - Home</title>
+    <meta name="description" content="Joye Technology Group – Strategic Technology to Drive Your Success. IT Leadership & CIO Services, Cyber Security & Information Assurance, Project Management, and Subject Matter Experts">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="image_src" href="/images/thumbnail.png" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body class="home">
+    <!--[if lt IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header class="mainHeader">
+        <div class="headWrapper">
+            <h1 class="logoReplace"><a href="index.html">Joye Technology Group</a></h1>
+            <div class="contactInfo">
+            	<a class="cta" href="#form">Request Your Free Consultation</a>
+            	<p class="number">Or call: 803.749.7475</p>
+            </div>
+            <nav>
+            	<h2 class="visuallyHidden">Main Navigation</h2>
+            	<div><a id="menuButton" class="menuButton">&#9776; Menu</a></div>
+                <ul class="menuHide">
+                    <li><a href="index.html" class="focused">Home</a></li>
+                    <li><a href="it-leadership.html" id="itButton">IT Leadership</a></li>
+                    <li><a href="cyber-security.html" id="securityButton">Cyber Security</a></li>
+                    <li><a href="project-management.html" id="projectButton">Project Management</a></li>
+                    <li><a href="subject-matter-experts.html" id="smeButton">Subject Matter Experts</a></li>
+                    <li><a href="about.html" id="aboutButton">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+        <div class="clearfix">
+			<div style="max-width: 1100px; margin: 0 auto;">
+				<h2>File not found (404 error)</h2>
+        		<p>If you think what you're looking for should be here, please send us a message.</p>
+			</div>
+        		
+
+          </div>
+    </main>
+    <footer class="mainFooter">
+        <nav class="wrapper">
+            <h2 class="visuallyHidden">Main Navigation</h2>
+            <ul>
+                
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="it-leadership.html" id="itButton">IT Leadership</a></li>
+                <li><a href="cyber-security.html" id="securityButton">Cyber Security</a></li>
+                <li><a href="project-management.html" id="projectButton">Project Management</a></li>
+                <li><a href="subject-matter-experts.html" id="smeButton">Subject Matter Experts</a></li>
+                <li><a href="about.html" id="aboutButton">About</a></li>
+            </ul>
+        </nav>
+        <div class="subFooter clearfix">
+            <div class="wrapper">
+                
+                <p class="copyright">&copy; 2018 Joye Technology Group, LLC.  All rights reserved.</p>
+                <p class="attribution">Designed and Developed by <a href="http://meghansmithsolutions.com">Meghan Smith Solutions</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>
