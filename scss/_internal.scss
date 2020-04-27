@@ -1,4 +1,7 @@
 body.internal{
+	.clearfix{
+		clear:both;
+	}
 	.aboutImage{
 		float: left;
 		margin-right:25px;
@@ -186,8 +189,18 @@ body.internal{
 		
 	}
 
+	
 	ul.subList {
-		margin-bottom: 0;
+		 margin-bottom: 0;
+		@include bp($med){
+			width: 50%;
+			float: left;
+			margin-bottom: 23px;
+			margin-top: 10px;
+		}
+		@include bp($large){
+			width: 40%;
+		}
 	}
 }
 
