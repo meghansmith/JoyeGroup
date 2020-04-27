@@ -18,6 +18,8 @@ footer {
 		text-decoration: none;
 		border-bottom: 1px solid $dblue;
 
+
+
 		@include bp($hover){
 			opacity: 1;
 
@@ -63,6 +65,9 @@ footer {
 		.attribution {
 			padding-bottom: 11px;
 			margin-bottom: 0;
+			.myLink{
+				padding-left: 5px;
+			}
 			a {
 				text-decoration: underline;
 				padding-bottom: 0;

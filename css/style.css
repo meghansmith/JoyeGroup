@@ -4,7 +4,9 @@
   src: url("../fonts/icomoon.eot");
   src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
+
 /*! HTML5 Boilerplate v5.0.0 | MIT License | http://h5bp.com/ */
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -14,11 +16,15 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+/* line 13, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 html {
-  color: #223474; }
+  color: #223474;
+}
 
+/* line 19, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 *, *:before, *:after {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -27,148 +33,203 @@ html {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
+/* line 31, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 ::-moz-selection {
   background: #bbdddb;
-  text-shadow: none; }
+  text-shadow: none;
+}
 
+/* line 36, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 ::selection {
   background: #b3d4fc;
-  text-shadow: none; }
+  text-shadow: none;
+}
 
 /*
  * A better looking default horizontal rule
  */
+/* line 45, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 hr {
   display: block;
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
   margin: 1em 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
+/* line 60, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 audio,
 canvas,
 iframe,
 img,
 svg,
 video {
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 /*
  * Remove default fieldset styles.
  */
+/* line 73, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 fieldset {
   border: 0;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /*
  * Allow only vertical resizing of textareas.
  */
+/* line 83, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 textarea {
-  resize: vertical; }
+  resize: vertical;
+}
 
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
+/* line 91, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .browserupgrade {
   margin: 0.2em 0;
   background: #ff0000;
   color: #000;
-  padding: 0.2em 0; }
+  padding: 0.2em 0;
+}
 
 /* ==========================================================================
    Author's custom styles
 //    ========================================================================== */
+/* line 103, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 html, .root {
   background-color: #f3eee5;
   font-size: 16px;
-  line-height: 23px; }
+  line-height: 23px;
+}
 
+/* line 109, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 body, .article {
   font-family: sans-serif;
   font-size: 1em;
   line-height: 1.4375em;
-  margin: auto; }
+  margin: auto;
+}
 
+/* line 115, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 h1, .h1 {
   font-size: 4.1875em;
   line-height: 1.02985075em;
   margin-top: 0.34328358em;
-  margin-bottom: 0.68656716em; }
+  margin-bottom: 0.68656716em;
+}
 
+/* line 121, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 h2, .h2 {
   font-size: 2.625em;
   line-height: 1.0952381em;
   margin-top: 0.54761905em;
-  margin-bottom: 0.54761905em; }
+  margin-bottom: 0.54761905em;
+}
 
+/* line 127, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 h3, .h3 {
   font-size: 1.625em;
   line-height: 1.76923077em;
   margin-top: 0.88461538em;
-  margin-bottom: 0em; }
+  margin-bottom: 0em;
+}
 
+/* line 133, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 h4, .h4 {
   font-size: 1em;
   line-height: 1.4375em;
   margin-top: 1.4375em;
-  margin-bottom: 0em; }
+  margin-bottom: 0em;
+}
 
+/* line 139, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 h5, .h5 {
   font-size: 1em;
   line-height: 1.4375em;
   margin-top: 1.4375em;
-  margin-bottom: 0em; }
+  margin-bottom: 0em;
+}
 
+/* line 145, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 p, ul, ol, pre, table, blockquote {
   margin-top: 0em;
-  margin-bottom: 1.4375em; }
+  margin-bottom: 1.4375em;
+}
 
+/* line 149, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 ul ul, ol ol, ul ol, ol ul {
   margin-top: 0em;
-  margin-bottom: 0em; }
+  margin-bottom: 0em;
+}
 
 /* Let's make sure all's aligned */
+/* line 155, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 hr, .hr {
   border: 1px solid;
-  margin: -1px 0; }
+  margin: -1px 0;
+}
 
+/* line 159, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 b, i, strong, em, small, code {
-  line-height: 0; }
+  line-height: 0;
+}
 
+/* line 162, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 sub, sup {
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
+/* line 167, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
+/* line 170, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
+/* line 176, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 h1, h2, h3, h4, a {
   font-family: "PT Sans", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+}
 
+/* line 180, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 p, ul, ol {
-  font-family: "Source Serif Pro", serif; }
+  font-family: "Source Serif Pro", serif;
+}
 
+/* line 183, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 a {
   color: #ce7304;
-  transition: all .5s ease; }
-  @media (min-width: 64.0625em) {
-    a {
-      opacity: .8; }
-      a:hover {
-        opacity: 1; } }
+  transition: all .5s ease;
+}
 
+@media (min-width: 64.0625em) {
+  /* line 183, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
+  a {
+    opacity: .8;
+  }
+  /* line 189, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
+  a:hover {
+    opacity: 1;
+  }
+}
+
+/* line 194, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .logoReplace a {
   display: inline-block;
   width: 175px;
@@ -176,17 +237,30 @@ a {
   background-size: cover;
   background-image: url("../images/logo.png");
   text-indent: -9999px;
-  margin: 0 auto; }
-  .logoReplace a:after {
-    display: none; }
-  @media (min-width: 34.375em) {
-    .logoReplace a {
-      width: 250px;
-      height: 115px; } }
-  @media (min-width: 64.0625em) {
-    .logoReplace a {
-      opacity: 1; } }
+  margin: 0 auto;
+}
 
+/* line 202, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
+.logoReplace a:after {
+  display: none;
+}
+
+@media (min-width: 34.375em) {
+  /* line 194, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
+  .logoReplace a {
+    width: 250px;
+    height: 115px;
+  }
+}
+
+@media (min-width: 64.0625em) {
+  /* line 194, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
+  .logoReplace a {
+    opacity: 1;
+  }
+}
+
+/* line 214, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -198,80 +272,128 @@ a {
   line-height: 1;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+}
 
+/* line 229, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .icon-sme:before {
   content: "\e903";
-  color: inherit; }
+  color: inherit;
+}
 
+/* line 233, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 #sme {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+/* line 237, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 img {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
+/* line 241, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
-  position: relative; }
+  position: relative;
+}
 
+/* line 247, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .inner {
   max-width: 660px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
+/* line 251, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .bold {
-  font-weight: 700; }
+  font-weight: 700;
+}
 
+/* line 254, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 p > a {
-  font-family: "Source Serif Pro", serif; }
+  font-family: "Source Serif Pro", serif;
+}
 
+/* line 259, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 section {
   padding-left: 4%;
-  padding-right: 4%; }
-  @media (min-width: 31.25em) {
-    section {
-      padding-left: 4%;
-      padding-right: 4%; } }
-  @media (min-width: 40.625em) {
-    section {
-      padding-top: 12px; } }
+  padding-right: 4%;
+}
 
+@media (min-width: 31.25em) {
+  /* line 259, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
+  section {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+
+@media (min-width: 40.625em) {
+  /* line 259, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
+  section {
+    padding-top: 12px;
+  }
+}
+
+/* line 273, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .form .cognito a {
-  visibility: hidden; }
+  visibility: hidden;
+}
 
+/* line 276, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .form {
   background-image: url(../images/formBackground.jpg);
   padding-top: 46px;
   padding-bottom: 46px;
   background-position: 70%;
   background-size: cover;
-  margin-bottom: 46px; }
+  margin-bottom: 46px;
+}
+
+/* line 285, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
+.form h2 {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 23px 4%;
+}
+
+@media (min-width: 50.625em) {
+  /* line 285, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
   .form h2 {
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.75);
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 23px 4%; }
-    @media (min-width: 50.625em) {
-      .form h2 {
-        max-width: 75%;
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+78,ffffff+100&0.75+86,0+100 */
-        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
-        /* FF3.6-15 */
-        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
-        /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to right, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
-        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 );
-        /* IE6-9 */ } }
-  .form .c-forms-form {
-    margin: 0 auto; }
-  .form .c-forms-form-body {
-    padding: 23px 4%; }
-  .form .cognito .c-forms-form input[type=text] {
-    border: 2px solid #223474; }
-  .form .cognito span p {
-    color: #f3eee5;
-    font-size: 1.5em;
-    line-height: 1.5em; }
+    max-width: 75%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+78,ffffff+100&0.75+86,0+100 */
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 );
+    /* IE6-9 */
+  }
+}
+
+/* line 300, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
+.form .c-forms-form {
+  margin: 0 auto;
+}
+
+/* line 303, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
+.form .c-forms-form-body {
+  padding: 23px 4%;
+}
+
+/* line 307, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
+.form .cognito .c-forms-form input[type=text] {
+  border: 2px solid #223474;
+}
+
+/* line 310, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
+.form .cognito span p {
+  color: #f3eee5;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
 
 /* ==========================================================================
    Helper classes
@@ -280,17 +402,22 @@ section {
  * Hide visually and from screen readers:
  * http://juicystudio.com/article/screen-readers-display-none.php
  */
+/* line 351, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .hide {
-  display: none; }
+  display: none;
+}
 
+/* line 354, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .hidden {
   display: none !important;
-  visibility: hidden; }
+  visibility: hidden;
+}
 
 /*
  * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
+/* line 364, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .visuallyHidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -299,13 +426,15 @@ section {
   overflow: hidden;
   padding: 0;
   position: absolute;
-  width: 1px; }
+  width: 1px;
+}
 
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
+/* line 381, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -313,13 +442,16 @@ section {
   margin: 0;
   overflow: visible;
   position: static;
-  width: auto; }
+  width: auto;
+}
 
 /*
  * Hide visually and from screen readers, but maintain layout
  */
+/* line 395, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .invisible {
-  visibility: hidden; }
+  visibility: hidden;
+}
 
 /*
  * Clearfix: contain floats
@@ -332,15 +464,19 @@ section {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+/* line 411, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   /* 1 */
   display: table;
-  /* 2 */ }
+  /* 2 */
+}
 
+/* line 417, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
 .clearfix:after {
-  clear: both; }
+  clear: both;
+}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -348,556 +484,990 @@ section {
    Modify as content requires.
    ========================================================================== */
 @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */ }
+  /* Style adjustments for high resolution devices */
+}
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 @media print {
+  /* line 442, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
   *,
   *:before,
   *:after {
     background: transparent !important;
     color: #000 !important;
     /* Black prints faster:
-       http://www.sanbeiji.com/archives/953 */
+                                   http://www.sanbeiji.com/archives/953 */
     box-shadow: none !important;
-    text-shadow: none !important; }
-
+    text-shadow: none !important;
+  }
+  /* line 452, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
   a,
   a:visited {
-    text-decoration: underline; }
-
+    text-decoration: underline;
+  }
   /*a[href]:after {
-      content: " (" attr(href) ")";
-  }  this prints the href after each link on the page. */
+        content: " (" attr(href) ")";
+    }  this prints the href after each link on the page. */
+  /* line 461, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
   abbr[title]:after {
-    content: " (" attr(title) ")"; }
-
+    content: " (" attr(title) ")";
+  }
   /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  /* line 470, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
-    content: ""; }
-
+    content: "";
+  }
+  /* line 475, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
   pre,
   blockquote {
     border: 1px solid #999;
-    page-break-inside: avoid; }
-
+    page-break-inside: avoid;
+  }
   /*
-   * Printing Tables:
-   * http://css-discuss.incutio.com/wiki/Printing_Tables
-   */
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+  /* line 486, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
   thead {
-    display: table-header-group; }
-
+    display: table-header-group;
+  }
+  /* line 490, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
   tr,
   img {
-    page-break-inside: avoid; }
-
+    page-break-inside: avoid;
+  }
+  /* line 495, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
   img {
-    max-width: 100% !important; }
-
+    max-width: 100% !important;
+  }
+  /* line 499, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
   p,
   h2,
   h3 {
     orphans: 3;
-    widows: 3; }
-
+    widows: 3;
+  }
+  /* line 506, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_base.scss */
   h2,
   h3 {
-    page-break-after: avoid; } }
-header {
-  margin-bottom: 20px; }
-  header h1 {
-    margin: 0 0 20px; }
-  header .contactInfo {
-    text-align: right; }
-    @media (min-width: 34.375em) {
-      header .contactInfo {
-        position: absolute;
-        right: 0;
-        top: 14px; } }
-    header .contactInfo .cta {
-      display: inline-block;
-      border: 4px solid #ce7304;
-      border-radius: 5px;
-      color: #ce7304;
-      background-color: #f3eee5;
-      padding: 6px 12px;
-      font-size: 1em;
-      text-decoration: none;
-      margin-bottom: 8px; }
-      @media (min-width: 64.0625em) {
-        header .contactInfo .cta:hover {
-          color: #f3eee5;
-          background-color: #ce7304; } }
-  header a.menuButton {
-    cursor: pointer;
-    display: inline-block;
-    width: 100%;
-    font-size: 2em;
-    padding: 5px 15px 5px 0;
-    margin: 0px auto;
-    color: #223474; }
-    @media (min-width: 50.625em) {
-      header a.menuButton {
-        display: none !important; } }
-  header nav {
-    margin: 0 auto; }
-  header p.number {
-    font-size: 1em; }
-  header ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-between; }
-    @media (min-width: 50.625em) {
-      header ul {
-        display: flex !important; } }
-  @media (min-width: 50.625em) {
-    header li {
-      display: inline-block;
-      flex: 1 auto;
-      text-align: center; }
-      header li:last-child a {
-        padding-right: 0; } }
-  header li a {
-    display: inline-block;
-    font-size: 1.1em;
-    padding: 7px 4px 7px;
-    transition: all .5s ease;
-    position: relative;
-    text-decoration: none;
-    color: #223474;
-    font-family: "Source Serif Pro", serif;
-    border-bottom: 1px solid #f3eee5; }
-    header li a.focused {
-      color: #0b460a;
-      border-bottom: 1px solid #0b460a; }
-    @media (min-width: 50.625em) {
-      header li a {
-        padding-bottom: 0; } }
-    @media (min-width: 64.0625em) {
-      header li a {
-        opacity: 1; }
-        header li a:hover {
-          border-bottom: 1px solid #223474; } }
-  header div.headWrapper {
-    margin: 0 auto;
-    margin-left: 4%;
-    margin-right: 4%;
-    position: relative; }
-    @media (min-width: 75em) {
-      header div.headWrapper {
-        max-width: 1100px;
-        margin: 0 auto; } }
+    page-break-after: avoid;
+  }
+}
 
+/* line 1, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+header {
+  margin-bottom: 20px;
+}
+
+/* line 3, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+header h1 {
+  margin: 0 0 20px;
+}
+
+/* line 6, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+header .contactInfo {
+  text-align: right;
+}
+
+@media (min-width: 34.375em) {
+  /* line 6, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+  header .contactInfo {
+    position: absolute;
+    right: 0;
+    top: 14px;
+  }
+}
+
+/* line 17, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+header .contactInfo .cta {
+  display: inline-block;
+  border: 4px solid #ce7304;
+  border-radius: 5px;
+  color: #ce7304;
+  background-color: #f3eee5;
+  padding: 6px 12px;
+  font-size: 1em;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 64.0625em) {
+  /* line 30, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+  header .contactInfo .cta:hover {
+    color: #f3eee5;
+    background-color: #ce7304;
+  }
+}
+
+/* line 39, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+header a.menuButton {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  font-size: 2em;
+  padding: 5px 15px 5px 0;
+  margin: 0px auto;
+  color: #223474;
+}
+
+@media (min-width: 50.625em) {
+  /* line 39, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+  header a.menuButton {
+    display: none !important;
+  }
+}
+
+/* line 55, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+header nav {
+  margin: 0 auto;
+}
+
+/* line 59, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+header p.number {
+  font-size: 1em;
+}
+
+/* line 63, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+header ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 50.625em) {
+  /* line 63, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+  header ul {
+    display: flex !important;
+  }
+}
+
+@media (min-width: 50.625em) {
+  /* line 75, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+  header li {
+    display: inline-block;
+    flex: 1 auto;
+    text-align: center;
+  }
+  /* line 81, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+  header li:last-child a {
+    padding-right: 0;
+  }
+}
+
+/* line 86, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+header li a {
+  display: inline-block;
+  font-size: 1.05em;
+  letter-spacing: -1px;
+  padding: 7px 4px 7px;
+  transition: all .5s ease;
+  position: relative;
+  text-decoration: none;
+  color: #223474;
+  font-family: "Source Serif Pro", serif;
+  border-bottom: 1px solid #f3eee5;
+}
+
+/* line 97, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+header li a.focused {
+  color: #0b460a;
+  border-bottom: 1px solid #0b460a;
+}
+
+@media (min-width: 50.625em) {
+  /* line 86, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+  header li a {
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 64.0625em) {
+  /* line 86, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+  header li a {
+    opacity: 1;
+  }
+  /* line 109, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+  header li a:hover {
+    border-bottom: 1px solid #223474;
+  }
+}
+
+/* line 121, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+header div.headWrapper {
+  margin: 0 auto;
+  margin-left: 4%;
+  margin-right: 4%;
+  position: relative;
+}
+
+@media (min-width: 75em) {
+  /* line 121, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_header.scss */
+  header div.headWrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
+
+/* line 2, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
 body.home .intro {
   background-image: url(../images/hero.jpg);
   background-size: cover;
   background-position: 53%;
-  margin-bottom: 46px; }
-  @media (min-width: 50.625em) {
-    body.home .intro {
-      background-position: 0%;
-      margin: 0 auto;
-      margin-bottom: 46px; } }
-  @media (min-width: 62.5em) {
-    body.home .intro {
-      padding-top: 46px;
-      padding-bottom: 46px; } }
-  @media (min-width: 75em) {
-    body.home .intro {
-      max-width: 1100px;
-      margin: 0 auto;
-      margin-bottom: 46px; } }
+  margin-bottom: 46px;
+}
+
+@media (min-width: 50.625em) {
+  /* line 2, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+  body.home .intro {
+    background-position: 0%;
+    margin: 0 auto;
+    margin-bottom: 46px;
+  }
+}
+
+@media (min-width: 62.5em) {
+  /* line 2, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+  body.home .intro {
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+}
+
+@media (min-width: 75em) {
+  /* line 2, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+  body.home .intro {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 46px;
+  }
+}
+
+/* line 25, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .intro .background {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 23px 4%;
+}
+
+@media (min-width: 34.375em) {
+  /* line 25, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
   body.home .intro .background {
-    background-color: rgba(255, 255, 255, 0.75);
-    padding: 23px 4%; }
-    @media (min-width: 34.375em) {
-      body.home .intro .background {
-        max-width: 75%;
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+78,ffffff+100&0.75+86,0+100 */
-        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
-        /* FF3.6-15 */
-        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
-        /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to right, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
-        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 );
-        /* IE6-9 */
-        padding-bottom: 0;
-        margin-bottom: 92px;
-        margin-top: 23px; } }
-    @media (min-width: 40.625em) {
-      body.home .intro .background {
-        max-width: 60%; } }
+    max-width: 75%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+78,ffffff+100&0.75+86,0+100 */
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 78%, rgba(255, 255, 255, 0.75) 86%, rgba(255, 255, 255, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 );
+    /* IE6-9 */
+    padding-bottom: 0;
+    margin-bottom: 92px;
+    margin-top: 23px;
+  }
+}
+
+@media (min-width: 40.625em) {
+  /* line 25, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+  body.home .intro .background {
+    max-width: 60%;
+  }
+}
+
+/* line 47, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .intro h2, body.home .intro p, body.home .intro .cta {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.75);
+}
+
+@media (min-width: 34.375em) {
+  /* line 47, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
   body.home .intro h2, body.home .intro p, body.home .intro .cta {
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.75); }
-    @media (min-width: 34.375em) {
-      body.home .intro h2, body.home .intro p, body.home .intro .cta {
-        max-width: 90%; } }
+    max-width: 90%;
+  }
+}
+
+/* line 56, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .intro .cta {
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 23px;
+  border-bottom: 1px solid rgba(2, 2, 2, 0);
+}
+
+@media (min-width: 64.0625em) {
+  /* line 56, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
   body.home .intro .cta {
-    font-size: 1.2em;
-    text-decoration: none;
-    font-weight: 700;
-    display: inline-block;
-    margin-bottom: 23px;
-    border-bottom: 1px solid rgba(2, 2, 2, 0); }
-    @media (min-width: 64.0625em) {
-      body.home .intro .cta {
-        opacity: 1; }
-        body.home .intro .cta:hover {
-          border-bottom: 1px solid #ce7304; } }
+    opacity: 1;
+  }
+  /* line 66, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+  body.home .intro .cta:hover {
+    border-bottom: 1px solid #ce7304;
+  }
+}
+
+/* line 74, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
 body.home .tagline {
   color: #0b460a;
-  margin-bottom: 46px; }
-  @media (min-width: 40.625em) {
-    body.home .tagline {
-      margin-bottom: 92px; } }
+  margin-bottom: 46px;
+}
+
+@media (min-width: 40.625em) {
+  /* line 74, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+  body.home .tagline {
+    margin-bottom: 92px;
+  }
+}
+
+/* line 84, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
 body.home .services {
   background-image: url("../images/servicesBackground.jpg");
   padding-bottom: 23px;
-  margin-bottom: 46px; }
-  @media (min-width: 40.625em) {
-    body.home .services {
-      padding-bottom: 69px; } }
+  margin-bottom: 46px;
+}
+
+@media (min-width: 40.625em) {
+  /* line 84, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+  body.home .services {
+    padding-bottom: 69px;
+  }
+}
+
+/* line 95, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .services h3 {
+  color: #f3eee5;
+  line-height: 1.35em;
+  padding: 46px 0 23px;
+}
+
+@media (min-width: 50.625em) {
+  /* line 95, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
   body.home .services h3 {
-    color: #f3eee5;
-    line-height: 1.35em;
-    padding: 46px 0 23px; }
-    @media (min-width: 50.625em) {
-      body.home .services h3 {
-        max-width: 75%; } }
-  body.home .services .flexWrap {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: stretch; }
+    max-width: 75%;
+  }
+}
+
+/* line 106, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .services .flexWrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/* line 115, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .services .flexItem {
+  display: inline-block;
+  background-color: rgba(243, 238, 229, 0.7);
+  padding: 23px 4%;
+  margin-bottom: 23px;
+  border-radius: 4px;
+  flex: 1 100%;
+  border: 6px solid rgba(243, 238, 229, 0);
+}
+
+@media (min-width: 40.625em) {
+  /* line 115, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
   body.home .services .flexItem {
-    display: inline-block;
-    background-color: rgba(243, 238, 229, 0.7);
-    padding: 23px 4%;
-    margin-bottom: 23px;
-    border-radius: 4px;
-    flex: 1 100%;
-    border: 6px solid rgba(243, 238, 229, 0); }
-    @media (min-width: 40.625em) {
-      body.home .services .flexItem {
-        flex: 1 auto;
-        max-width: 48%; } }
-    @media (min-width: 75em) {
-      body.home .services .flexItem {
-        max-width: 23.5%;
-        padding: 23px; } }
-    @media (min-width: 64.0625em) {
-      body.home .services .flexItem:hover {
-        background-color: #f3eee5;
-        border: 6px solid #0b460a; } }
-  body.home .services a {
-    text-decoration: none;
-    opacity: 1; }
-    @media (min-width: 64.0625em) {
-      body.home .services a:hover {
-        color: #0b460a; } }
-    body.home .services a h4, body.home .services a p {
-      color: #223474; }
+    flex: 1 auto;
+    max-width: 48%;
+  }
+}
+
+@media (min-width: 75em) {
+  /* line 115, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+  body.home .services .flexItem {
+    max-width: 31.5%;
+    padding: 23px;
+  }
+}
+
+@media (min-width: 64.0625em) {
+  /* line 135, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+  body.home .services .flexItem:hover {
+    background-color: #f3eee5;
+    border: 6px solid #0b460a;
+  }
+}
+
+/* line 142, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .services a {
+  text-decoration: none;
+  opacity: 1;
+}
+
+@media (min-width: 64.0625em) {
+  /* line 148, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+  body.home .services a:hover {
+    color: #0b460a;
+  }
+}
+
+/* line 158, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .services a h4, body.home .services a p {
+  color: #223474;
+}
+
+/* line 164, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .services h4 {
+  font-size: 1.4em;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  line-height: 1.1em;
+}
+
+@media (min-width: 34.375em) {
+  /* line 164, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
   body.home .services h4 {
-    font-size: 1.4em;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    line-height: 1.1em; }
-    @media (min-width: 34.375em) {
-      body.home .services h4 {
-        font-size: 1.6em; } }
+    font-size: 1.6em;
+  }
+}
+
+/* line 176, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
 body.home .testimonial {
   color: #0b460a;
-  padding-bottom: 23px; }
-  @media (min-width: 40.625em) {
-    body.home .testimonial {
-      padding-top: 46px;
-      padding-bottom: 69px; } }
-  body.home .testimonial .inner {
-    padding: 23px 23px 0;
-    position: relative; }
-    body.home .testimonial .inner .top, body.home .testimonial .inner .bottom {
-      position: absolute;
-      width: 92px;
-      height: 92px; }
-    body.home .testimonial .inner .top {
-      top: 0;
-      border-top: 2px solid #0b460a; }
-    body.home .testimonial .inner .bottom {
-      bottom: 0;
-      border-bottom: 2px solid #0b460a; }
-    body.home .testimonial .inner .left {
-      left: 0;
-      border-left: 2px solid #0b460a; }
-    body.home .testimonial .inner .right {
-      right: 0;
-      border-right: 2px solid #0b460a; }
-  @media (min-width: 34.375em) {
-    body.home .testimonial img {
-      max-width: 50%;
-      float: left;
-      padding-right: 4%;
-      padding-bottom: 2px; } }
-  body.home .testimonial .quote {
-    font-family: "PT Sans", sans-serif;
-    font-size: 1.5em; }
-  body.home .testimonial .fa-quote-left {
-    margin-bottom: 11px; }
-  body.home .testimonial .testimonialAttribution {
-    font-weight: 700;
-    padding-bottom: 23px;
-    font-size: .9em; }
+  padding-bottom: 23px;
+}
 
+@media (min-width: 40.625em) {
+  /* line 176, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+  body.home .testimonial {
+    padding-top: 46px;
+    padding-bottom: 69px;
+  }
+}
+
+/* line 185, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .testimonial .inner {
+  padding: 23px 23px 0;
+  position: relative;
+}
+
+/* line 189, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .testimonial .inner .top, body.home .testimonial .inner .bottom {
+  position: absolute;
+  width: 92px;
+  height: 92px;
+}
+
+/* line 194, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .testimonial .inner .top {
+  top: 0;
+  border-top: 2px solid #0b460a;
+}
+
+/* line 198, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .testimonial .inner .bottom {
+  bottom: 0;
+  border-bottom: 2px solid #0b460a;
+}
+
+/* line 202, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .testimonial .inner .left {
+  left: 0;
+  border-left: 2px solid #0b460a;
+}
+
+/* line 206, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .testimonial .inner .right {
+  right: 0;
+  border-right: 2px solid #0b460a;
+}
+
+@media (min-width: 34.375em) {
+  /* line 212, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+  body.home .testimonial img {
+    max-width: 50%;
+    float: left;
+    padding-right: 4%;
+    padding-bottom: 2px;
+  }
+}
+
+/* line 221, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .testimonial .quote {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5em;
+}
+
+/* line 226, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .testimonial .fa-quote-left {
+  margin-bottom: 11px;
+}
+
+/* line 229, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
+body.home .testimonial .testimonialAttribution {
+  font-weight: 700;
+  padding-bottom: 23px;
+  font-size: .9em;
+}
+
+/* line 2, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .aboutImage {
   float: left;
   margin-right: 25px;
   margin-bottom: 25px;
-  max-width: 50%; }
-  @media (min-width: 62.5em) {
-    body.internal .aboutImage {
-      max-width: 15%; } }
+  max-width: 50%;
+}
+
+@media (min-width: 62.5em) {
+  /* line 2, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  body.internal .aboutImage {
+    max-width: 15%;
+  }
+}
+
+/* line 13, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .toList {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
+
+/* line 17, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .wrapper ul.inLine {
-  margin-bottom: 23px; }
+  margin-bottom: 23px;
+}
+
+/* line 20, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .noSpaceTop {
-  margin-top: 0; }
+  margin-top: 0;
+}
+
+/* line 25, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .header {
   background-image: url(../images/servicesBackground.jpg);
   background-size: cover;
   background-position: 53%;
-  margin-bottom: 46px; }
-  @media (min-width: 50.625em) {
-    body.internal .header {
-      background-position: 0%;
-      margin: 0 auto;
-      margin-bottom: 46px; } }
-  @media (min-width: 62.5em) {
-    body.internal .header {
-      padding-top: 46px;
-      padding-bottom: 46px; } }
-  body.internal .header h2, body.internal .header p {
-    color: #f3eee5;
-    max-width: 660px; }
-  body.internal .header svg, body.internal .header .icon-sme:before {
-    color: #ce7304;
-    font-size: 1.3em;
-    margin-right: 3px; }
+  margin-bottom: 46px;
+}
+
+@media (min-width: 50.625em) {
+  /* line 25, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  body.internal .header {
+    background-position: 0%;
+    margin: 0 auto;
+    margin-bottom: 46px;
+  }
+}
+
+@media (min-width: 62.5em) {
+  /* line 25, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  body.internal .header {
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+}
+
+/* line 41, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .header h2, body.internal .header p {
+  color: #f3eee5;
+  max-width: 660px;
+}
+
+/* line 45, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .header svg, body.internal .header .icon-sme:before {
+  color: #ce7304;
+  font-size: 1.3em;
+  margin-right: 3px;
+}
+
+/* line 51, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .introText {
   font-size: 1.3em;
-  line-height: 1.3em; }
+  line-height: 1.3em;
+}
+
+/* line 57, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .background {
-  padding: 23px 4%; }
-  @media (min-width: 34.375em) {
-    body.internal .background {
-      padding-bottom: 0;
-      margin-bottom: 92px;
-      margin-top: 23px; } }
-  @media (min-width: 75em) {
-    body.internal .background {
-      max-width: 1100px;
-      margin: 0 auto;
-      margin-bottom: 46px; } }
-body.internal .internalDetail {
-  flex: 1 100%; }
-  @media (min-width: 50.625em) {
-    body.internal .internalDetail {
-      flex-grow: 3;
-      flex-shrink: 1; } }
-  body.internal .internalDetail ul {
+  padding: 23px 4%;
+}
+
+@media (min-width: 34.375em) {
+  /* line 57, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  body.internal .background {
+    padding-bottom: 0;
+    margin-bottom: 92px;
+    margin-top: 23px;
+  }
+}
+
+@media (min-width: 75em) {
+  /* line 57, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  body.internal .background {
+    max-width: 1100px;
+    margin: 0 auto;
     margin-bottom: 46px;
-    max-width: 660px; }
-  body.internal .internalDetail .quotation {
-    color: #0b460a;
-    margin: 0 10%; }
-  body.internal .internalDetail .attribution {
-    font-family: "PT Sans", sans-serif;
-    font-size: .9em;
-    font-weight: bold; }
+  }
+}
+
+/* line 79, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .internalDetail {
+  flex: 1 100%;
+}
+
+@media (min-width: 50.625em) {
+  /* line 79, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  body.internal .internalDetail {
+    flex-grow: 3;
+    flex-shrink: 1;
+  }
+}
+
+/* line 88, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .internalDetail ul {
+  margin-bottom: 46px;
+  max-width: 660px;
+}
+
+/* line 93, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .internalDetail .quotation {
+  color: #0b460a;
+  margin: 0 10%;
+}
+
+/* line 97, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .internalDetail .attribution {
+  font-family: "PT Sans", sans-serif;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+/* line 105, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .testimonial {
   color: #0b460a;
   padding-bottom: 23px;
   flex: 1 100%;
-  flex-grow: 1; }
-  @media (min-width: 40.625em) {
-    body.internal .testimonial {
-      padding-top: 46px;
-      padding-bottom: 69px; } }
-  @media (min-width: 50.625em) {
-    body.internal .testimonial {
-      flex-shrink: 2;
-      padding: 0; } }
-  body.internal .testimonial .testimonialWrapper {
-    padding: 23px 23px 0;
-    position: relative;
-    max-width: 660px; }
-    body.internal .testimonial .testimonialWrapper .top, body.internal .testimonial .testimonialWrapper .bottom {
-      position: absolute;
-      width: 92px;
-      height: 92px; }
-    body.internal .testimonial .testimonialWrapper .top {
-      top: 0;
-      border-top: 2px solid #0b460a; }
-    body.internal .testimonial .testimonialWrapper .bottom {
-      bottom: 0;
-      border-bottom: 2px solid #0b460a; }
-    body.internal .testimonial .testimonialWrapper .left {
-      left: 0;
-      border-left: 2px solid #0b460a; }
-    body.internal .testimonial .testimonialWrapper .right {
-      right: 0;
-      border-right: 2px solid #0b460a; }
-  @media (min-width: 34.375em) {
-    body.internal .testimonial img {
-      max-width: 50%;
-      float: left;
-      padding-right: 4%;
-      padding-bottom: 2px; } }
-  @media (min-width: 50.625em) {
-    body.internal .testimonial img {
-      max-width: 100%; } }
-  body.internal .testimonial .quote {
-    font-family: "PT Sans", sans-serif;
-    font-size: 1.5em; }
-  body.internal .testimonial .fa-quote-left {
-    margin-bottom: 11px; }
-  body.internal .testimonial .testimonialAttribution {
-    font-weight: 700;
-    padding-bottom: 23px;
-    font-size: .9em; }
+  flex-grow: 1;
+}
+
+@media (min-width: 40.625em) {
+  /* line 105, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  body.internal .testimonial {
+    padding-top: 46px;
+    padding-bottom: 69px;
+  }
+}
+
 @media (min-width: 50.625em) {
+  /* line 105, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  body.internal .testimonial {
+    flex-shrink: 2;
+    padding: 0;
+  }
+}
+
+/* line 120, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .testimonial .testimonialWrapper {
+  padding: 23px 23px 0;
+  position: relative;
+  max-width: 660px;
+}
+
+/* line 127, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .testimonial .testimonialWrapper .top, body.internal .testimonial .testimonialWrapper .bottom {
+  position: absolute;
+  width: 92px;
+  height: 92px;
+}
+
+/* line 132, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .testimonial .testimonialWrapper .top {
+  top: 0;
+  border-top: 2px solid #0b460a;
+}
+
+/* line 136, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .testimonial .testimonialWrapper .bottom {
+  bottom: 0;
+  border-bottom: 2px solid #0b460a;
+}
+
+/* line 140, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .testimonial .testimonialWrapper .left {
+  left: 0;
+  border-left: 2px solid #0b460a;
+}
+
+/* line 144, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .testimonial .testimonialWrapper .right {
+  right: 0;
+  border-right: 2px solid #0b460a;
+}
+
+@media (min-width: 34.375em) {
+  /* line 150, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  body.internal .testimonial img {
+    max-width: 50%;
+    float: left;
+    padding-right: 4%;
+    padding-bottom: 2px;
+  }
+}
+
+@media (min-width: 50.625em) {
+  /* line 150, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  body.internal .testimonial img {
+    max-width: 100%;
+  }
+}
+
+/* line 163, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .testimonial .quote {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5em;
+}
+
+/* line 168, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .testimonial .fa-quote-left {
+  margin-bottom: 11px;
+}
+
+/* line 171, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .testimonial .testimonialAttribution {
+  font-weight: 700;
+  padding-bottom: 23px;
+  font-size: .9em;
+}
+
+@media (min-width: 50.625em) {
+  /* line 178, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   body.internal .flexWrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     max-width: 1100px;
-    margin: 0 auto; } }
-body.internal ul.subList {
-  margin-bottom: 0; }
+    margin: 0 auto;
+  }
+}
 
+/* line 189, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal ul.subList {
+  margin-bottom: 0;
+}
+
+/* line 195, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.sme div.headerImage {
   background-image: url(../images/confRoom.jpg);
-  background-position: 90% 0%; }
+  background-position: 90% 0%;
+}
 
+/* line 200, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.pm div.headerImage {
   background-image: url(../images/pmHeader.jpg);
-  background-position: 90% 0%; }
+  background-position: 90% 0%;
+}
 
+/* line 204, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 div.headerImage {
   background-size: cover;
-  margin-bottom: 46px; }
-  div.headerImage h2, div.headerImage p {
-    color: #f3eee5; }
-  div.headerImage i, div.headerImage svg {
-    color: #ce7304; }
-  @media (min-width: 50.625em) {
-    div.headerImage {
-      margin: 0 auto;
-      margin-bottom: 46px; } }
-  @media (min-width: 62.5em) {
-    div.headerImage {
-      padding-top: 46px;
-      padding-bottom: 46px; } }
-  @media (min-width: 75em) {
-    div.headerImage {
-      max-width: 1100px;
-      margin: 0 auto;
-      margin-bottom: 46px; } }
+  margin-bottom: 46px;
+}
 
+/* line 208, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+div.headerImage h2, div.headerImage p {
+  color: #f3eee5;
+}
+
+/* line 211, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+div.headerImage i, div.headerImage svg {
+  color: #ce7304;
+}
+
+@media (min-width: 50.625em) {
+  /* line 204, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  div.headerImage {
+    margin: 0 auto;
+    margin-bottom: 46px;
+  }
+}
+
+@media (min-width: 62.5em) {
+  /* line 204, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  div.headerImage {
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+}
+
+@media (min-width: 75em) {
+  /* line 204, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  div.headerImage {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 46px;
+  }
+}
+
+/* line 230, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 div.backgroundShade {
   background-color: rgba(34, 52, 116, 0.75);
-  padding: 23px 4%; }
-  @media (min-width: 34.375em) {
-    div.backgroundShade {
-      max-width: 75%;
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+78,ffffff+100&0.75+86,0+100 */
-      background: -moz-linear-gradient(left, #223474 0%, rgba(34, 52, 116, 0.75) 78%, rgba(34, 52, 116, 0.75) 86%, rgba(34, 52, 116, 0) 100%);
-      /* FF3.6-15 */
-      background: -webkit-linear-gradient(left, #223474 0%, rgba(34, 52, 116, 0.75) 78%, rgba(34, 52, 116, 0.75) 86%, rgba(34, 52, 116, 0) 100%);
-      /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(to right, #223474 0%, rgba(34, 52, 116, 0.75) 78%, rgba(34, 52, 116, 0.75) 86%, rgba(34, 52, 116, 0) 100%);
-      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 );
-      /* IE6-9 */
-      padding-bottom: 0;
-      margin-top: 23px; } }
-  @media (min-width: 40.625em) {
-    div.backgroundShade {
-      max-width: 60%; }
-      div.backgroundShade .introText {
-        padding-bottom: 48px; } }
+  padding: 23px 4%;
+}
 
+@media (min-width: 34.375em) {
+  /* line 230, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  div.backgroundShade {
+    max-width: 75%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+78,ffffff+100&0.75+86,0+100 */
+    background: -moz-linear-gradient(left, #223474 0%, rgba(34, 52, 116, 0.75) 78%, rgba(34, 52, 116, 0.75) 86%, rgba(34, 52, 116, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #223474 0%, rgba(34, 52, 116, 0.75) 78%, rgba(34, 52, 116, 0.75) 86%, rgba(34, 52, 116, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #223474 0%, rgba(34, 52, 116, 0.75) 78%, rgba(34, 52, 116, 0.75) 86%, rgba(34, 52, 116, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 );
+    /* IE6-9 */
+    padding-bottom: 0;
+    margin-top: 23px;
+  }
+}
+
+@media (min-width: 40.625em) {
+  /* line 230, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  div.backgroundShade {
+    max-width: 60%;
+  }
+  /* line 249, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  div.backgroundShade .introText {
+    padding-bottom: 48px;
+  }
+}
+
+/* line 1, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
 footer {
   background-color: #223474;
   color: #f3eee5;
   padding-top: 23px;
   display: inline-block;
-  width: 100%; }
-  @media (min-width: 40.625em) {
-    footer {
-      margin-top: 46px; } }
+  width: 100%;
+}
+
+@media (min-width: 40.625em) {
+  /* line 1, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+  footer {
+    margin-top: 46px;
+  }
+}
+
+/* line 13, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+footer a {
+  color: #f3eee5;
+  display: inline-block;
+  padding: 4px 12px;
+  font-family: "Source Serif Pro", serif;
+  text-decoration: none;
+  border-bottom: 1px solid #223474;
+}
+
+@media (min-width: 64.0625em) {
+  /* line 13, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
   footer a {
-    color: #f3eee5;
-    display: inline-block;
-    padding: 4px 12px;
-    font-family: "Source Serif Pro", serif;
-    text-decoration: none;
-    border-bottom: 1px solid #223474; }
-    @media (min-width: 64.0625em) {
-      footer a {
-        opacity: 1; }
-        footer a:hover {
-          border-bottom: 1px solid #f3eee5; } }
-  footer li {
-    display: inline; }
-    footer li:first-child a {
-      padding-left: 0; }
+    opacity: 1;
+  }
+  /* line 26, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+  footer a:hover {
+    border-bottom: 1px solid #f3eee5;
+  }
+}
+
+/* line 31, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+footer li {
+  display: inline;
+}
+
+/* line 34, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+footer li:first-child a {
+  padding-left: 0;
+}
+
+/* line 38, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+footer ul {
+  list-style: none;
+  padding-left: 4%;
+  max-width: 1100px;
+}
+
+@media (min-width: 75em) {
+  /* line 38, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
   footer ul {
-    list-style: none;
-    padding-left: 4%;
-    max-width: 1100px; }
-    @media (min-width: 75em) {
-      footer ul {
-        padding-left: 0; } }
-  footer .subFooter {
-    background-color: #0b460a;
-    font-family: "PT Sans", sans-serif;
-    font-size: .9em;
-    padding: 11px 4% 0;
-    line-height: 1.2em; }
-    footer .subFooter .copyright {
-      margin-bottom: 11px; }
-      @media (min-width: 840px) {
-        footer .subFooter .copyright {
-          float: left;
-          padding-top: 4px; } }
-    footer .subFooter .attribution {
-      padding-bottom: 11px;
-      margin-bottom: 0; }
-      footer .subFooter .attribution a {
-        text-decoration: underline;
-        padding-bottom: 0; }
-      @media (min-width: 40.625em) {
-        footer .subFooter .attribution {
-          text-align: right; } }
-      @media (min-width: 840px) {
-        footer .subFooter .attribution {
-          float: right; } }
-    footer .subFooter a {
-      border-bottom: none; }
-      @media (min-width: 64.0625em) {
-        footer .subFooter a:hover {
-          border-bottom: none;
-          color: #fff;
-          opacity: 1; } }
+    padding-left: 0;
+  }
+}
+
+/* line 50, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+footer .subFooter {
+  background-color: #0b460a;
+  font-family: "PT Sans", sans-serif;
+  font-size: .9em;
+  padding: 11px 4% 0;
+  line-height: 1.2em;
+}
+
+/* line 57, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+footer .subFooter .copyright {
+  margin-bottom: 11px;
+}
+
+@media (min-width: 840px) {
+  /* line 57, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+  footer .subFooter .copyright {
+    float: left;
+    padding-top: 4px;
+  }
+}
+
+/* line 65, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+footer .subFooter .attribution {
+  padding-bottom: 11px;
+  margin-bottom: 0;
+}
+
+/* line 68, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+footer .subFooter .attribution .myLink {
+  padding-left: 5px;
+}
+
+/* line 71, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+footer .subFooter .attribution a {
+  text-decoration: underline;
+  padding-bottom: 0;
+}
+
+@media (min-width: 40.625em) {
+  /* line 65, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+  footer .subFooter .attribution {
+    text-align: right;
+  }
+}
+
+@media (min-width: 840px) {
+  /* line 65, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+  footer .subFooter .attribution {
+    float: right;
+  }
+}
+
+/* line 85, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+footer .subFooter a {
+  border-bottom: none;
+}
+
+@media (min-width: 64.0625em) {
+  /* line 90, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_footer.scss */
+  footer .subFooter a:hover {
+    border-bottom: none;
+    color: #fff;
+    opacity: 1;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
