@@ -1018,6 +1018,11 @@ body.internal .clearfix {
 }
 
 /* line 5, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.internal .aboutHeroImage {
+  margin-bottom: 20px;
+}
+
+/* line 8, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .aboutImage {
   float: left;
   margin-right: 25px;
@@ -1026,28 +1031,28 @@ body.internal .aboutImage {
 }
 
 @media (min-width: 62.5em) {
-  /* line 5, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 8, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   body.internal .aboutImage {
     max-width: 15%;
   }
 }
 
-/* line 16, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 19, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .toList {
   margin-bottom: 0;
 }
 
-/* line 20, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 23, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .wrapper ul.inLine {
   margin-bottom: 23px;
 }
 
-/* line 23, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 26, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .noSpaceTop {
   margin-top: 0;
 }
 
-/* line 28, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 31, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .header {
   background-image: url(../images/servicesBackground.jpg);
   background-size: cover;
@@ -1056,7 +1061,7 @@ body.internal .header {
 }
 
 @media (min-width: 50.625em) {
-  /* line 28, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 31, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   body.internal .header {
     background-position: 0%;
     margin: 0 auto;
@@ -1065,39 +1070,39 @@ body.internal .header {
 }
 
 @media (min-width: 62.5em) {
-  /* line 28, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 31, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   body.internal .header {
     padding-top: 46px;
     padding-bottom: 46px;
   }
 }
 
-/* line 44, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 47, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .header h2, body.internal .header p {
   color: #f3eee5;
   max-width: 660px;
 }
 
-/* line 48, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 51, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .header svg, body.internal .header .icon-sme:before {
   color: #ce7304;
   font-size: 1.3em;
   margin-right: 3px;
 }
 
-/* line 54, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 57, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .introText {
   font-size: 1.3em;
   line-height: 1.3em;
 }
 
-/* line 60, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 63, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .background {
   padding: 23px 4%;
 }
 
 @media (min-width: 34.375em) {
-  /* line 60, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 63, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   body.internal .background {
     padding-bottom: 0;
     margin-bottom: 92px;
@@ -1106,7 +1111,7 @@ body.internal .background {
 }
 
 @media (min-width: 75em) {
-  /* line 60, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 63, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   body.internal .background {
     max-width: 1100px;
     margin: 0 auto;
@@ -1114,39 +1119,39 @@ body.internal .background {
   }
 }
 
-/* line 82, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 85, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .internalDetail {
   flex: 1 100%;
 }
 
 @media (min-width: 50.625em) {
-  /* line 82, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 85, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   body.internal .internalDetail {
     flex-grow: 3;
     flex-shrink: 1;
   }
 }
 
-/* line 91, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 94, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .internalDetail ul {
   margin-bottom: 46px;
   max-width: 660px;
 }
 
-/* line 96, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 99, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .internalDetail .quotation {
   color: #0b460a;
   margin: 0 10%;
 }
 
-/* line 100, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 103, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .internalDetail .attribution {
   font-family: "PT Sans", sans-serif;
   font-size: .9em;
   font-weight: bold;
 }
 
-/* line 108, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 111, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .testimonial {
   color: #0b460a;
   padding-bottom: 23px;
@@ -1155,7 +1160,7 @@ body.internal .testimonial {
 }
 
 @media (min-width: 40.625em) {
-  /* line 108, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 111, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   body.internal .testimonial {
     padding-top: 46px;
     padding-bottom: 69px;
@@ -1163,53 +1168,53 @@ body.internal .testimonial {
 }
 
 @media (min-width: 50.625em) {
-  /* line 108, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 111, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   body.internal .testimonial {
     flex-shrink: 2;
     padding: 0;
   }
 }
 
-/* line 123, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 126, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .testimonial .testimonialWrapper {
   padding: 23px 23px 0;
   position: relative;
   max-width: 660px;
 }
 
-/* line 130, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 133, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .testimonial .testimonialWrapper .top, body.internal .testimonial .testimonialWrapper .bottom {
   position: absolute;
   width: 92px;
   height: 92px;
 }
 
-/* line 135, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 138, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .testimonial .testimonialWrapper .top {
   top: 0;
   border-top: 2px solid #0b460a;
 }
 
-/* line 139, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 142, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .testimonial .testimonialWrapper .bottom {
   bottom: 0;
   border-bottom: 2px solid #0b460a;
 }
 
-/* line 143, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 146, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .testimonial .testimonialWrapper .left {
   left: 0;
   border-left: 2px solid #0b460a;
 }
 
-/* line 147, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 150, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .testimonial .testimonialWrapper .right {
   right: 0;
   border-right: 2px solid #0b460a;
 }
 
 @media (min-width: 34.375em) {
-  /* line 153, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 156, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   body.internal .testimonial img {
     max-width: 50%;
     float: left;
@@ -1219,24 +1224,24 @@ body.internal .testimonial .testimonialWrapper .right {
 }
 
 @media (min-width: 50.625em) {
-  /* line 153, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 156, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   body.internal .testimonial img {
     max-width: 100%;
   }
 }
 
-/* line 166, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 169, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .testimonial .quote {
   font-family: "PT Sans", sans-serif;
   font-size: 1.5em;
 }
 
-/* line 171, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 174, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .testimonial .fa-quote-left {
   margin-bottom: 11px;
 }
 
-/* line 174, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 177, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal .testimonial .testimonialAttribution {
   font-weight: 700;
   padding-bottom: 23px;
@@ -1244,7 +1249,7 @@ body.internal .testimonial .testimonialAttribution {
 }
 
 @media (min-width: 50.625em) {
-  /* line 181, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 184, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   body.internal .flexWrapper {
     display: flex;
     justify-content: space-between;
@@ -1254,13 +1259,13 @@ body.internal .testimonial .testimonialAttribution {
   }
 }
 
-/* line 193, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 196, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.internal ul.subList {
   margin-bottom: 0;
 }
 
 @media (min-width: 50.625em) {
-  /* line 193, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 196, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   body.internal ul.subList {
     width: 50%;
     float: left;
@@ -1270,42 +1275,48 @@ body.internal ul.subList {
 }
 
 @media (min-width: 62.5em) {
-  /* line 193, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 196, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   body.internal ul.subList {
     width: 40%;
   }
 }
 
-/* line 208, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 211, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.sme div.headerImage {
   background-image: url(../images/confRoom.jpg);
   background-position: 90% 0%;
 }
 
-/* line 213, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 216, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.pm div.headerImage {
   background-image: url(../images/pmHeader.jpg);
   background-position: 90% 0%;
 }
 
-/* line 217, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 220, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.about div.headerImage {
+  background-image: url(../images/action.png);
+  background-position: 90% 0%;
+}
+
+/* line 224, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 div.headerImage {
   background-size: cover;
   margin-bottom: 46px;
 }
 
-/* line 221, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 228, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 div.headerImage h2, div.headerImage p {
   color: #f3eee5;
 }
 
-/* line 224, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 231, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 div.headerImage i, div.headerImage svg {
   color: #ce7304;
 }
 
 @media (min-width: 50.625em) {
-  /* line 217, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 224, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   div.headerImage {
     margin: 0 auto;
     margin-bottom: 46px;
@@ -1313,7 +1324,7 @@ div.headerImage i, div.headerImage svg {
 }
 
 @media (min-width: 62.5em) {
-  /* line 217, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 224, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   div.headerImage {
     padding-top: 46px;
     padding-bottom: 46px;
@@ -1321,7 +1332,7 @@ div.headerImage i, div.headerImage svg {
 }
 
 @media (min-width: 75em) {
-  /* line 217, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 224, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   div.headerImage {
     max-width: 1100px;
     margin: 0 auto;
@@ -1329,14 +1340,14 @@ div.headerImage i, div.headerImage svg {
   }
 }
 
-/* line 243, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 250, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 div.backgroundShade {
   background-color: rgba(34, 52, 116, 0.75);
   padding: 23px 4%;
 }
 
 @media (min-width: 34.375em) {
-  /* line 243, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 250, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   div.backgroundShade {
     max-width: 75%;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+78,ffffff+100&0.75+86,0+100 */
@@ -1354,11 +1365,11 @@ div.backgroundShade {
 }
 
 @media (min-width: 40.625em) {
-  /* line 243, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 250, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   div.backgroundShade {
     max-width: 60%;
   }
-  /* line 262, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 269, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   div.backgroundShade .introText {
     padding-bottom: 48px;
   }

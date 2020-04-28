@@ -2,6 +2,9 @@ body.internal{
 	.clearfix{
 		clear:both;
 	}
+	.aboutHeroImage{
+		margin-bottom: 20px;
+	}
 	.aboutImage{
 		float: left;
 		margin-right:25px;
@@ -212,6 +215,10 @@ body.sme div.headerImage{
 
 body.pm div.headerImage{
 	background-image: url(../images/pmHeader.jpg);
+	background-position: 90% 0%;
+}
+body.about div.headerImage{
+	background-image: url(../images/action.png);
 	background-position: 90% 0%;
 }
 	div.headerImage{
