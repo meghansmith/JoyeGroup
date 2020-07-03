@@ -1,6 +1,6 @@
 body.home{
 	.intro {
-		background-image: url(../images/hero.jpg);
+		background-image: url(../images/2020office-people.jpg);
 		background-size: cover;
 		background-position: 53%;
 		margin-bottom: 46px;
@@ -40,7 +40,7 @@ body.home{
 			}
 
 			@include bp($small){
-				max-width: 60%;
+				max-width: 50%;
 			}
 		}
 

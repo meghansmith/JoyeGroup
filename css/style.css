@@ -719,7 +719,7 @@ header div.headWrapper {
 
 /* line 2, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
 body.home .intro {
-  background-image: url(../images/hero.jpg);
+  background-image: url(../images/2020office-people.jpg);
   background-size: cover;
   background-position: 53%;
   margin-bottom: 46px;
@@ -779,7 +779,7 @@ body.home .intro .background {
 @media (min-width: 40.625em) {
   /* line 25, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
   body.home .intro .background {
-    max-width: 60%;
+    max-width: 50%;
   }
 }
 
@@ -1294,29 +1294,35 @@ body.pm div.headerImage {
 }
 
 /* line 220, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
-body.about div.headerImage {
-  background-image: url(../images/action.png);
+body.itLeadership div.headerImage {
+  background-image: url(../images/2020office-man.jpg);
   background-position: 90% 0%;
 }
 
 /* line 224, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+body.about div.headerImage {
+  background-image: url(../images/2020office-meeting.jpg);
+  background-position: center;
+}
+
+/* line 228, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 div.headerImage {
   background-size: cover;
   margin-bottom: 46px;
 }
 
-/* line 228, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 232, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 div.headerImage h2, div.headerImage p {
   color: #f3eee5;
 }
 
-/* line 231, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 235, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 div.headerImage i, div.headerImage svg {
   color: #ce7304;
 }
 
 @media (min-width: 50.625em) {
-  /* line 224, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 228, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   div.headerImage {
     margin: 0 auto;
     margin-bottom: 46px;
@@ -1324,7 +1330,7 @@ div.headerImage i, div.headerImage svg {
 }
 
 @media (min-width: 62.5em) {
-  /* line 224, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 228, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   div.headerImage {
     padding-top: 46px;
     padding-bottom: 46px;
@@ -1332,7 +1338,7 @@ div.headerImage i, div.headerImage svg {
 }
 
 @media (min-width: 75em) {
-  /* line 224, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 228, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   div.headerImage {
     max-width: 1100px;
     margin: 0 auto;
@@ -1340,14 +1346,14 @@ div.headerImage i, div.headerImage svg {
   }
 }
 
-/* line 250, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+/* line 254, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 div.backgroundShade {
   background-color: rgba(34, 52, 116, 0.75);
   padding: 23px 4%;
 }
 
 @media (min-width: 34.375em) {
-  /* line 250, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 254, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   div.backgroundShade {
     max-width: 75%;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+78,ffffff+100&0.75+86,0+100 */
@@ -1365,11 +1371,11 @@ div.backgroundShade {
 }
 
 @media (min-width: 40.625em) {
-  /* line 250, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 254, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   div.backgroundShade {
     max-width: 60%;
   }
-  /* line 269, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
+  /* line 273, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
   div.backgroundShade .introText {
     padding-bottom: 48px;
   }
