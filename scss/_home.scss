@@ -1,17 +1,17 @@
 body.home{
 	.intro {
-		background-image: url(../images/2020office-people.jpg);
+		background-image: url(../images/2020TablePeople.jpg);
 		background-size: cover;
-		background-position: 53%;
 		margin-bottom: 46px;
 
 		@include bp($med){
-			background-position: 0%;
+
 			margin: 0 auto;
 			margin-bottom: 46px;
 			}
 
 			@include bp($large){
+				background-position-y: -50px;
 				padding-top:46px;
 				padding-bottom: 46px;
 			}

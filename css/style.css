@@ -719,16 +719,14 @@ header div.headWrapper {
 
 /* line 2, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
 body.home .intro {
-  background-image: url(../images/2020office-people.jpg);
+  background-image: url(../images/2020TablePeople.jpg);
   background-size: cover;
-  background-position: 53%;
   margin-bottom: 46px;
 }
 
 @media (min-width: 50.625em) {
   /* line 2, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
   body.home .intro {
-    background-position: 0%;
     margin: 0 auto;
     margin-bottom: 46px;
   }
@@ -737,6 +735,7 @@ body.home .intro {
 @media (min-width: 62.5em) {
   /* line 2, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_home.scss */
   body.home .intro {
+    background-position-y: -50px;
     padding-top: 46px;
     padding-bottom: 46px;
   }
@@ -1295,7 +1294,7 @@ body.pm div.headerImage {
 
 /* line 220, ../../../Documents/Freelance/Joye Group/JoyeGroup/scss/_internal.scss */
 body.itLeadership div.headerImage {
-  background-image: url(../images/2020office-man.jpg);
+  background-image: url(../images/2020PeopleMeeting.jpg);
   background-position: 90% 0%;
 }
 
